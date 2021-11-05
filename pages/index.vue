@@ -1,7 +1,65 @@
 <template>
-    <div class="w-screen h-screen bg-gradient-to-r from-green-400 to-blue-500 flex flex-col items-center">
-        <div class="h-screen flex flex-row items-center">
-            <h1 class="text-7xl">Under construction!</h1>
+    <div>
+        <HeaderHome/>
+        <div class="-top-20 relative flex flex-row justify-between items-center h-screen min-h-96 pr-20 pl-20 bg-palette-cyan bg-opacity-20">
+            <div class="absolute bottom-0 -left-48">
+                <svg class="stroke-0 fill-current text-palette-ciel opacity-20 filter blur-3xl" height="800" width="800">
+                    <circle cx="400" cy="400" r="400" />
+                </svg>
+            </div>
+            <div class="flex flex-col p-10 space-y-10">
+                <h1 class="text-4xl sm:text-5xl font-semibold">
+                    The token for innovation in education. <br> Think crypto.
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="pr-5 pl-5 pt-3 pb-3 border-2 border-palette-violet text-palette-violet rounded-2xl">Whitepaper</button>
+            </div>
+            <div class="hidden lg:block fill-current text-palette-violet opacity-80">
+                <svg height="500" width="500">
+                    <circle cx="250" cy="250" r="240" stroke-width="3"/>
+                </svg>
+            </div>
+        </div>
+        <div class="flex flex-col space-y-10 sm:space-y-16 justify-around">
+            <div>
+                <h2 class="text-center text-3xl font-semibold">
+                    Who is EduKarta for?
+                </h2>
+                <p class="text-center p-10">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+            <div class="flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 pl-32 pr-32 pb-20">
+                <div class="flex flex-col items-center md:pt-3">
+                    <IconsReader/>
+                    <h3 class="text-center text-xl font-semibold m-5">
+                        Universities
+                    </h3>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <IconsBook/>
+                    <h3 class="text-center text-xl font-semibold m-5">
+                        Student
+                    </h3>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="flex flex-col items-center md:pt-3">
+                    <IconsTeacher/>
+                    <h3 class="text-center text-xl font-semibold m-5">
+                        Teacher
+                    </h3>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </template>
