@@ -1,10 +1,4 @@
 {
-  "LogoMainBlack": {
-    "description": "Auto imported from components/logo/MainBlack.vue"
-  },
-  "LogoMainWhite": {
-    "description": "Auto imported from components/logo/MainWhite.vue"
-  },
   "HeaderHome": {
     "description": "Auto imported from components/header/Home.vue"
   },
@@ -16,5 +10,11 @@
   },
   "IconsTeacher": {
     "description": "Auto imported from components/Icons/Teacher.vue"
+  },
+  "LogoMainBlack": {
+    "description": "Auto imported from components/logo/MainBlack.vue"
+  },
+  "LogoMainWhite": {
+    "description": "Auto imported from components/logo/MainWhite.vue"
   }
 }

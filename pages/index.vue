@@ -14,7 +14,9 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <button class="pr-5 pl-5 pt-3 pb-3 border-2 border-palette-violet text-palette-violet rounded-2xl">Whitepaper</button>
+                <button class="pt-3 pb-3 border-2 border-palette-violet text-palette-violet rounded-2xl hover:bg-palette-violet hover:text-white">
+                    Whitepaper
+                </button>
             </div>
             <div class="hidden lg:block fill-current text-palette-violet opacity-80">
                 <svg height="500" width="500">
@@ -58,6 +60,72 @@
                     <p class="text-center">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
+                </div>
+            </div>
+        </div>
+        <div class="relative flex flex-col md:flex-row px-20 space-x-10 h-screen items-center">
+            <div class="absolute -right-32 -top-32 z-0">
+                <svg class="stroke-0 fill-current text-palette-cyan opacity-20 filter blur-3xl" height="800" width="800">
+                    <circle cx="400" cy="400" r="400" />
+                </svg>
+            </div>
+            <div class="flex flex-col space-y-10 z-50">
+                <img class="" src="~assets/what_is_edukarta.png">
+                <h2 class="text-3xl font-semibold">
+                    What is Edukarta?
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="pt-3 pb-3 bg-palette-violet rounded-lg text-white w-40">
+                    EduKarta
+                </button>
+            </div>
+            <div class="flex flex-col space-y-4 z-50">
+                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                    <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">1</div>
+                    <div class="flex flex-col px-4 space-y-2">
+                        <h3 class="text-xl font-semibold">Governance</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                    <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">2</div>
+                    <div class="flex flex-col px-4 space-y-2">
+                        <h3 class="text-xl font-semibold">Governance</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                    <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">3</div>
+                    <div class="flex flex-col px-4 space-y-2">
+                        <h3 class="text-xl font-semibold">Governance</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                    <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">4</div>
+                    <div class="flex flex-col px-4 space-y-2">
+                        <h3 class="text-xl font-semibold">Governance</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                    <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">5</div>
+                    <div class="flex flex-col px-4 space-y-2">
+                        <h3 class="text-xl font-semibold">Governance</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

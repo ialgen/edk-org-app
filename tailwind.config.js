@@ -9,6 +9,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      dropShadow: {
+        '3xl': '0 35px 35px rgba(128, 174, 249, 0.25)',
+      },
       colors: {
         blue: {
           edk: '#000366'
