@@ -9,7 +9,7 @@
             <div> EduToken </div>
             <button class="bg-palette-ciel text-white pr-5 pl-5 pt-2 pb-2 rounded-lg hover:bg-palette-bleu"> EduKarta </button>
         </div>
-    </header>
+    </header>  
 </template>
 
 <script>

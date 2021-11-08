@@ -2,12 +2,12 @@
     <div>
         <HeaderHome/>
         <div class="-top-20 relative flex flex-row justify-between items-center h-screen min-h-96 pr-20 pl-20 bg-palette-cyan bg-opacity-20">
-            <div class="absolute bottom-0 -left-48">
+            <div class="absolute bottom-0 -left-48 z-0">
                 <svg class="stroke-0 fill-current text-palette-ciel opacity-20 filter blur-3xl" height="800" width="800">
                     <circle cx="400" cy="400" r="400" />
                 </svg>
             </div>
-            <div class="flex flex-col p-10 space-y-10">
+            <div class="flex flex-col p-10 space-y-10 z-50">
                 <h1 class="text-4xl sm:text-5xl font-semibold">
                     The token for innovation in education. <br> Think crypto.
                 </h1>
@@ -64,9 +64,14 @@
             </div>
         </div>
         <div class="relative flex flex-col md:flex-row px-20 space-x-10 h-screen items-center">
-            <div class="absolute -right-32 -top-32 z-0">
-                <svg class="stroke-0 fill-current text-palette-cyan opacity-20 filter blur-3xl" height="800" width="800">
-                    <circle cx="400" cy="400" r="400" />
+            <div class="absolute right-0 -top-32 z-0">
+                <svg class="stroke-0 fill-current text-palette-cyan opacity-20 filter blur-3xl" height="600" width="600">
+                    <circle cx="300" cy="300" r="300" />
+                </svg>
+            </div>
+            <div class="absolute -left-16 -bottom-32 z-0">
+                <svg class="stroke-0 fill-current text-palette-bleu opacity-20 filter blur-3xl" height="400" width="400">
+                    <circle cx="200" cy="200" r="200" />
                 </svg>
             </div>
             <div class="flex flex-col space-y-10 z-50">
