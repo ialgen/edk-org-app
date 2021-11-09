@@ -1,13 +1,4 @@
 {
-  "HeaderHome": {
-    "description": "Auto imported from components/header/Home.vue"
-  },
-  "LogoMainBlack": {
-    "description": "Auto imported from components/logo/MainBlack.vue"
-  },
-  "LogoMainWhite": {
-    "description": "Auto imported from components/logo/MainWhite.vue"
-  },
   "IconsBook": {
     "description": "Auto imported from components/Icons/Book.vue"
   },
@@ -16,5 +7,14 @@
   },
   "IconsTeacher": {
     "description": "Auto imported from components/Icons/Teacher.vue"
+  },
+  "HeaderHome": {
+    "description": "Auto imported from components/header/Home.vue"
+  },
+  "LogoMainBlack": {
+    "description": "Auto imported from components/logo/MainBlack.vue"
+  },
+  "LogoMainWhite": {
+    "description": "Auto imported from components/logo/MainWhite.vue"
   }
 }
