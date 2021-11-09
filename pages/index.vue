@@ -12,11 +12,11 @@
                     The token for innovation in education. <br> Think crypto.
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    L’EduToken est une crypto-monnaie indispensable à l’univers EduKarta qui a de surcroît pour vertu de financer la totalité du projet.
                 </p>
-                <button class="pt-3 pb-3 border-2 border-palette-violet text-palette-violet rounded-2xl hover:bg-palette-violet hover:text-white">
+                <a href="http://whitepaper.edutoken.org" class="pt-3 pb-3 border-2 border-palette-violet text-palette-violet text-center rounded-2xl hover:bg-palette-violet hover:text-white">
                     Whitepaper
-                </button>
+                </a>
             </div>
             <div class="hidden lg:block fill-current text-palette-violet opacity-80">
                 <svg height="500" width="500">
@@ -30,7 +30,7 @@
                     Who is EduKarta for?
                 </h2>
                 <p class="text-center p-10">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    EduKarta est un écosystème de services et programmes dévolus à l’éducation qui concerne enfants, étudiants, parents, professeurs, grands-parents, educational institutions du monde entier.
                 </p>
             </div>
             <div class="flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 pl-32 pr-32 pb-20">
@@ -87,16 +87,16 @@
                 </button>
             </div>
             <div class="flex flex-col space-y-4 z-50">
-                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                <div class="flex flex-row bg-white rounded-2xl py-4 filter drop-shadow-3xl items-center">
                     <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">1</div>
                     <div class="flex flex-col px-4 space-y-2">
-                        <h3 class="text-xl font-semibold">Governance</h3>
+                        <h3 class="text-xl font-semibold">La carte</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            La carte est l’élément central qui permet de visualiser rapidement et efficacement les formations adaptées à l’étudiant. Grâce aux filtres adaptés, l’étudiant est en mesure de trouver les formations lui convenant tant sur le plan intellectuel que dans la zone géographique qu’il recherche.
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                <div class="flex flex-row bg-white rounded-2xl py-4 filter drop-shadow-3xl items-center">
                     <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">2</div>
                     <div class="flex flex-col px-4 space-y-2">
                         <h3 class="text-xl font-semibold">Governance</h3>
@@ -105,7 +105,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                <div class="flex flex-row bg-white rounded-2xl py-4 filter drop-shadow-3xl items-center">
                     <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">3</div>
                     <div class="flex flex-col px-4 space-y-2">
                         <h3 class="text-xl font-semibold">Governance</h3>
@@ -114,7 +114,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                <div class="flex flex-row bg-white rounded-2xl py-4 filter drop-shadow-3xl items-center">
                     <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">4</div>
                     <div class="flex flex-col px-4 space-y-2">
                         <h3 class="text-xl font-semibold">Governance</h3>
@@ -123,7 +123,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row bg-white rounded-2xl py-2 filter drop-shadow-3xl items-center">
+                <div class="flex flex-row bg-white rounded-2xl py-4 filter drop-shadow-3xl items-center">
                     <div class="flex items-center p-6 ml-4 text-6xl text-palette-ciel font-light">5</div>
                     <div class="flex flex-col px-4 space-y-2">
                         <h3 class="text-xl font-semibold">Governance</h3>
