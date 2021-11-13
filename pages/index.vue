@@ -157,7 +157,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div v-show="show_20" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
+                    <div v-if="show_20" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
                         <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
                             <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
                             <p class="text-2xl lg:text-base">
@@ -237,7 +237,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div v-show="show_22" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
+                    <div v-if="show_22" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
                         <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
                             <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
                             <p class="text-2xl lg:text-base">
@@ -277,7 +277,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div v-show="show_23" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
+                    <div v-if="show_23" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
                         <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
                             <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
                             <p class="text-2xl lg:text-base">
