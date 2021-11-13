@@ -1,5 +1,5 @@
 <template>
-    <header class="transition h-20 bg-blue-edk bg-opacity-0 flex flex-row justify-between items-center pr-10 pl-10 bg-palette-cyan bg-opacity-20 shadow">
+    <header class="transition h-20 flex flex-row justify-between items-center pr-10 pl-10 bg-palette-cyan bg-opacity-20 shadow">
         <div class="m-4">
             <LogoMainBlack/>
         </div>
