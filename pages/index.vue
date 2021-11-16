@@ -65,7 +65,7 @@
                 </div>
             </div>
         </section>
-        <section class="relative flex flex-col space-y-10 px-10 h-auto items-center lg:flex-row lg:space-x-10 lg:px-20">
+        <section id="#edukarta" class="relative flex flex-col space-y-10 px-10 h-auto items-center lg:flex-row lg:space-x-10 lg:px-20">
             <div class="absolute right-0 -top-32 ">
                 <svg class="stroke-0 fill-current text-palette-cyan opacity-20 filter blur-3xl" height="600" width="600">
                     <circle cx="300" cy="300" r="300" />
@@ -136,7 +136,7 @@
                 </div>
             </div>
         </section>
-        <section class="flex flex-col items-center space-y-10">
+        <section id="roadmap" class="flex flex-col items-center space-y-10">
             <h2 class="text-6xl lg:text-3xl font-semibold mt-20">
                 Roadmap
             </h2>
@@ -309,6 +309,7 @@
                 </div>
             </div>
         </section>
+        <FooterHome/>
     </div>
 </template>
 

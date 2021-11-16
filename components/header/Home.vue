@@ -4,8 +4,8 @@
             <LogoMainBlack/>
         </div>
         <div class="flex flex-row items-center space-x-10 font-medium">
-            <div> Project </div>
-            <div> Road Map </div>
+            <NuxtLink to="#edukarta">What is EduKarta?</NuxtLink>
+            <NuxtLink to="#roadmap">Road Map</NuxtLink>
             <div> EduToken </div>
             <button class="bg-palette-ciel text-white pr-5 pl-5 pt-2 pb-2 rounded-lg hover:bg-palette-bleu"> EduKarta </button>
         </div>
