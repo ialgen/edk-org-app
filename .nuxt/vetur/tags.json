@@ -1,4 +1,10 @@
 {
+  "FooterHome": {
+    "description": "Auto imported from components/footer/Home.vue"
+  },
+  "HeaderHome": {
+    "description": "Auto imported from components/header/Home.vue"
+  },
   "IconsBook": {
     "description": "Auto imported from components/Icons/Book.vue"
   },
@@ -7,12 +13,6 @@
   },
   "IconsTeacher": {
     "description": "Auto imported from components/Icons/Teacher.vue"
-  },
-  "FooterHome": {
-    "description": "Auto imported from components/footer/Home.vue"
-  },
-  "HeaderHome": {
-    "description": "Auto imported from components/header/Home.vue"
   },
   "LogoFooter": {
     "description": "Auto imported from components/logo/Footer.vue"

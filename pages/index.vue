@@ -82,7 +82,7 @@
                 </h2>
                 <img class="w-1/2 lg:w-auto" src="~assets/what_is_edukarta.png">
                 <p class="text-3xl lg:text-base text-center lg:text-left">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    EduKarta est une plateforme qui rassemble les connaissances et leurs “architectes” dans un monde électronique sécurisé et dynamique.
                 </p>
                 <button class="py-5 lg:py-3 bg-palette-violet rounded-lg text-white w-60 lg:w-40 text-3xl lg:text-xl xl:text-base">
                     EduKarta
