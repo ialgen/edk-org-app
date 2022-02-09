@@ -1,5 +1,12 @@
 [
   {
+    "name": "team",
+    "path": "/team",
+    "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/team.vue",
+    "chunkName": "pages/team",
+    "_name": "_5ba4236c"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/index.vue",
