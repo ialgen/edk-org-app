@@ -1,16 +1,20 @@
 [
   {
+    "name": "copiepourtrad",
+    "path": "/copiepourtrad",
+    "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/copiepourtrad.vue",
+    "chunkName": "pages/copiepourtrad"
+  },
+  {
     "name": "team",
     "path": "/team",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/team.vue",
-    "chunkName": "pages/team",
-    "_name": "_5ba4236c"
+    "chunkName": "pages/team"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5087ad35"
+    "chunkName": "pages/index"
   }
 ]

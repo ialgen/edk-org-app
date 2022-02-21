@@ -3,7 +3,7 @@
         <div class="flex flex-row justify-evenly">
             <div class="flex flex-col space-y-2">
                 <div class="uppercase font-semibold text-sm">Token sale</div>
-                <a class="text-xs" href="/#">Whitepaper</a>
+                <a class="text-xs" href="https://edu-karta.gitbook.io/edukarta/">Whitepaper</a>
                 <a class="text-xs" href="/#">Tutorials</a>
                 <a class="text-xs" href="/#">Smartcontract(s)</a>
             </div>

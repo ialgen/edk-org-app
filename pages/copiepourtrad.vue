@@ -43,11 +43,11 @@
             <div class="flex flex-col space-y-10 lg:flex-row lg:justify-around lg:space-x-10 lg:space-y-0 px-32 pb-20">
                 <div class="flex flex-col items-center lg:pt-3">
                     <IconsReader/>
-                    <h3 class="text-center text-5xl lg:text-xl font-semibold m-5 ">
+                    <h3 class="text-center text-5xl lg:text-xl font-semibold m-5">
                         Universities
                     </h3>
                     <p class="text-center text-2xl lg:text-base">
-                        Chaque institution educative a sa place sur EduKarta. Petite ou grande, le référencement est gratuit et automatique. Sur EduKarta, sont recensées plus de 20 millions d'institutions dans le monde.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="flex flex-col items-center">
@@ -56,7 +56,7 @@
                         Student
                     </h3>
                     <p class="text-center text-2xl lg:text-base">
-                        Les étudiants et leurs parents ont accès à toutes les institutions mondiales. La création de leur compte personnel est gratuite. Utilisez EduKarta pour accéder aux informations indispensables à une orientation claire et efficace.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
                 <div class="flex flex-col items-center lg:pt-3">
@@ -65,12 +65,12 @@
                         Teacher
                     </h3>
                     <p class="text-center text-2xl lg:text-base">
-                        Avec EduKarta, les enseignants ont enfin la place qu'ils méritent dans l'écosystème éducatif international. Ce sont eux qui créent les cours et permettent aux étudiants de découvrir, aimer, apprendre, se former et devenir des pros.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     </p>
                 </div>
             </div>
         </section>
-        <section id="edukarta" class="relative flex flex-col space-y-10 px-10 h-auto items-center lg:flex-row lg:justify-around lg:space-x-10 lg:px-20">
+        <section id="#edukarta" class="relative flex flex-col space-y-10 px-10 h-auto items-center lg:flex-row lg:justify-around lg:space-x-10 lg:px-20">
             <div class="absolute right-0 -top-32">
                 <svg class="stroke-0 fill-current text-palette-cyan opacity-20 filter blur-3xl" height="600" width="600">
                     <circle cx="300" cy="300" r="300" />
@@ -87,13 +87,11 @@
                 </h2>
                 <img class="w-1/2 lg:w-auto" src="~assets/what_is_edukarta.png">
                 <p class="text-3xl lg:text-base text-center lg:text-left">
-                    EduKarta est une plateforme qui rassemble les connaissances et leurs architectes dans un monde électronique sécurisé et dynamique.
+                    EduKarta est une plateforme qui rassemble les connaissances et leurs “architectes” dans un monde électronique sécurisé et dynamique.
                 </p>
-                <a href="https://edu-karta.gitbook.io/edukarta/">
-                    <div class="py-5 lg:py-3 bg-palette-violet rounded-lg text-white w-60 text-center lg:w-40 text-3xl lg:text-xl xl:text-base">
-                        EduKarta
-                    </div>
-                </a>
+                <button class="py-5 lg:py-3 bg-palette-violet rounded-lg text-white w-60 lg:w-40 text-3xl lg:text-xl xl:text-base">
+                    EduKarta
+                </button>
             </div>
             <div class="flex flex-col space-y-4">
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
@@ -108,42 +106,42 @@
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
                     <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">2</div>
                     <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">L'EduToken</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">Governance</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            Grâce à sa propre monnaie l’EduToken (EDK), EduKarta garantit toutes les transactions, sécurise votre argent, vous permet d’en gagner grâce à l'attractivité combinée de l'éducation et des cryptos monnaies. Toutes les transactions se faisant dans la même monnaie, il n’y a plus de problème de change ou de valeur de la monnaie.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
                     <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">3</div>
                     <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">La NFT Factory</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">Governance</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            EduKarta propose d’ailleurs une NFT Factory qui sélectionne les meilleurs enseignements et les transforme en NFT, c’est-à-dire les rend uniques et les protège de tout plagiat et contrefaçon. EduKarta labellise la qualité, universalise les savoirs fondamentaux, facilite l’accès à toutes les connaissances mondiales. EduKarta est le rêve numérique de Diderot et D’Alembert.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
                     <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">4</div>
                     <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">EduKaps</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">La carte</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            Des capsules de connaissances universelles seront envoyées comme des graines dans tous les endroits de la planète ou l'éducation est en souffrance/carence. L’EduKaps est un container de métal comportant tout ce qui est indispensable pour enseigner et accueillir des enfants : chaises, tables, écran, bibliothèque, matériel pédagogique.
+                            La carte est l’élément central qui permet de visualiser rapidement et efficacement les formations adaptées à l’étudiant. Grâce aux filtres adaptés, l’étudiant est en mesure de trouver les formations lui convenant tant sur le plan intellectuel que dans la zone géographique qu’il recherche.
                         </p>
                     </div>
                 </div>
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
                     <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">5</div>
                     <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">Le fonds Ethiken</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">Governance</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            Le fonds Ethiken dont l’objet est de garantir le cours de l’EDK et protéger l’épargne des investisseurs non-spéculateurs
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="roadmap" class="flex flex-col items-center space-y-10">
+        <section id="#roadmap" class="flex flex-col items-center space-y-10">
             <h2 class="text-6xl lg:text-3xl font-semibold mt-20">
                 Roadmap
             </h2>
@@ -322,7 +320,7 @@
                     Tokenomics
                 </h2>
                 <p class="text-3xl lg:text-base text-justify">
-                    |Details sur le lancement du token.|
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <div class="absolute -left-16 -bottom-32 z-0">
                     <svg class="stroke-0 fill-current text-palette-bleu opacity-10 filter blur-3xl" height="400" width="400">
@@ -393,7 +391,7 @@ const people = [
     imageUrl:
       'team/aldrick.jpeg',
     twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/aldrick-allal-53458191/',
+    linkedinUrl: '#',
   },
   {
     name: 'Ialgen Allal',
@@ -401,7 +399,7 @@ const people = [
     imageUrl:
       'team/ialgen.jpeg',
     twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/ialgen-allal/',
+    linkedinUrl: '#',
   },
   {
     name: 'Istvan Allal',
@@ -409,7 +407,7 @@ const people = [
     imageUrl:
       'team/istvan.jpeg',
     twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/istvan-a/',
+    linkedinUrl: '#',
   },
   {
     name: 'Iqbal Allal',
@@ -433,7 +431,7 @@ const people = [
     imageUrl:
       'team/sabrina.jpeg',
     twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/sabrina-camelot-2243b234/',
+    linkedinUrl: '#',
   },
   {
     name: 'Jasmina Bezdrob',
@@ -441,7 +439,7 @@ const people = [
     imageUrl:
       'team/ialgen.jpeg',
     twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/jasmina-bezdrob-5b474880/',
+    linkedinUrl: '#',
   },
   {
     name: 'more',
