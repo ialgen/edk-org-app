@@ -1,6 +1,12 @@
 {
-  "FooterHome": {
-    "description": "Auto imported from components/footer/Home.vue"
+  "LogoFooter": {
+    "description": "Auto imported from components/logo/Footer.vue"
+  },
+  "LogoMainBlack": {
+    "description": "Auto imported from components/logo/MainBlack.vue"
+  },
+  "LogoMainWhite": {
+    "description": "Auto imported from components/logo/MainWhite.vue"
   },
   "HeaderHome": {
     "description": "Auto imported from components/header/Home.vue"
@@ -14,14 +20,8 @@
   "IconsTeacher": {
     "description": "Auto imported from components/icons/Teacher.vue"
   },
-  "LogoFooter": {
-    "description": "Auto imported from components/logo/Footer.vue"
-  },
-  "LogoMainBlack": {
-    "description": "Auto imported from components/logo/MainBlack.vue"
-  },
-  "LogoMainWhite": {
-    "description": "Auto imported from components/logo/MainWhite.vue"
+  "FooterHome": {
+    "description": "Auto imported from components/footer/Home.vue"
   },
   "IconsSocialLinkedin": {
     "description": "Auto imported from components/icons/social/linkedin.vue"
