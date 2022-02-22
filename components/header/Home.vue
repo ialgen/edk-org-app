@@ -7,7 +7,7 @@
             <div class="hidden sm:flex sm:flex-row sm:items-center sm:space-x-10 sm:font-medium">
                 <NuxtLink to="#edukarta">What is EduKarta?</NuxtLink>
                 <NuxtLink to="#roadmap">Road Map</NuxtLink>
-                <div> EduToken </div>
+                <NuxtLink to="#tokenomics">EduToken</NuxtLink>
                 <button class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu"> EduKarta </button>
             </div>
             <div class="-mr-2 flex items-center sm:hidden">

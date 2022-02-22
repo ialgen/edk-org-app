@@ -6,8 +6,8 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<FooterHome>` | `<footer-home>` (components/footer/Home.vue)
 - `<HeaderHome>` | `<header-home>` (components/header/Home.vue)
+- `<FooterHome>` | `<footer-home>` (components/footer/Home.vue)
 - `<IconsBook>` | `<icons-book>` (components/icons/Book.vue)
 - `<IconsReader>` | `<icons-reader>` (components/icons/Reader.vue)
 - `<IconsTeacher>` | `<icons-teacher>` (components/icons/Teacher.vue)

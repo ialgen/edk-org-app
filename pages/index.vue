@@ -1,9 +1,9 @@
 <template>
-    <div>
+    <div class="bg-network">
         <HeaderHome/>
         <section class="-top-20 relative flex flex-row justify-between items-center h-auto mt-20 p-20 bg-white bg-opacity-20">
             <div class="absolute bottom-0 -left-48">
-                <svg class="hidden lg:block stroke-0 fill-current text-palette-ciel opacity-20 filter blur-3xl" height="800" width="800">
+                <svg class="hidden lg:block stroke-0 fill-current text-palette-ciel opacity-20 blur-3xl" height="800" width="800">
                     <circle cx="400" cy="400" r="400" />
                 </svg>
             </div>
@@ -40,7 +40,7 @@
                     EduKarta est un écosystème de services et programmes dévolus à l’éducation qui concerne enfants, étudiants, parents, professeurs, grands-parents, educational institutions du monde entier.
                 </p>
             </div>
-            <div class="flex flex-col space-y-10 lg:flex-row lg:justify-around lg:space-x-10 lg:space-y-0 px-32 pb-20">
+            <div class="flex flex-col space-y-10 lg:flex-row lg:justify-around lg:space-x-10 lg:space-y-0 px-32 pb-10">
                 <div class="flex flex-col items-center lg:pt-3">
                     <IconsReader/>
                     <h3 class="text-center text-5xl lg:text-xl font-semibold m-5 ">
@@ -70,22 +70,25 @@
                 </div>
             </div>
         </section>
+        <section class="flex flex-col items-center">
+                <iframe class="aspect-video w-2/3 z-50" src="https://www.youtube.com/embed/VOn80tYOA-o" title="YouTube video player" allowfullscreen></iframe>
+        </section>
         <section id="edukarta" class="relative flex flex-col space-y-10 px-10 h-auto items-center lg:flex-row lg:justify-around lg:space-x-10 lg:px-20">
-            <div class="absolute right-0 -top-32">
-                <svg class="stroke-0 fill-current text-palette-cyan opacity-20 filter blur-3xl" height="600" width="600">
+            <div class="absolute right-0 -top-32 z-0">
+                <svg class="stroke-0 fill-current text-palette-cyan opacity-20 blur-3xl" height="600" width="600">
                     <circle cx="300" cy="300" r="300" />
                 </svg>
             </div>
             <div class="absolute -left-16 -bottom-32 z-0">
-                <svg class="stroke-0 fill-current text-palette-bleu opacity-20 filter blur-3xl" height="400" width="400">
+                <svg class="stroke-0 fill-current text-palette-bleu opacity-20 blur-3xl" height="400" width="400">
                     <circle cx="200" cy="200" r="200" />
                 </svg>
             </div>
-            <div class="flex flex-col space-y-10 z-50 items-center lg:items-start">
+            <div class="flex flex-col space-y-10 z-50 items-center lg:items-start lg:w-1/4">
                 <h2 class="text-6xl lg:text-3xl font-semibold">
                     What is Edukarta?
                 </h2>
-                <img class="w-1/2 lg:w-auto" src="~assets/what_is_edukarta.png">
+                <img class="w-1/2 lg:w-auto" src="~assets/prof.png">
                 <p class="text-3xl lg:text-base text-center lg:text-left">
                     EduKarta est une plateforme qui rassemble les connaissances et leurs architectes dans un monde électronique sécurisé et dynamique.
                 </p>
@@ -95,46 +98,41 @@
                     </div>
                 </a>
             </div>
-            <div class="flex flex-col space-y-4">
-                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
-                    <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">1</div>
-                    <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
+            <div class="grid grid-cols-3 gap-10 max-w-4xl">
+                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
+                    <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
                         <h3 class="text-4xl lg:text-xl font-semibold">La carte</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            La carte est l’élément central qui permet de visualiser rapidement et efficacement les formations adaptées à l’étudiant. Grâce aux filtres adaptés, l’étudiant est en mesure de trouver les formations lui convenant tant sur le plan intellectuel que dans la zone géographique qu’il recherche.
+                            La carte est l’élément central qui permet de visualiser rapidement et efficacement les formations adaptées à l’étudiant.
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
-                    <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">2</div>
-                    <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
+                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
+                    <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
                         <h3 class="text-4xl lg:text-xl font-semibold">L'EduToken</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            Grâce à sa propre monnaie l’EduToken (EDK), EduKarta garantit toutes les transactions, sécurise votre argent, vous permet d’en gagner grâce à l'attractivité combinée de l'éducation et des cryptos monnaies. Toutes les transactions se faisant dans la même monnaie, il n’y a plus de problème de change ou de valeur de la monnaie.
+                            Grâce à l’EduToken (EDK), EduKarta garantit toutes les transactions, sécurise votre argent et vous permet d’en gagner.
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
-                    <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">3</div>
-                    <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
+                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
+                    <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
                         <h3 class="text-4xl lg:text-xl font-semibold">La NFT Factory</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            EduKarta propose d’ailleurs une NFT Factory qui sélectionne les meilleurs enseignements et les transforme en NFT, c’est-à-dire les rend uniques et les protège de tout plagiat et contrefaçon. EduKarta labellise la qualité, universalise les savoirs fondamentaux, facilite l’accès à toutes les connaissances mondiales. EduKarta est le rêve numérique de Diderot et D’Alembert.
+                            EduKarta propose d’ailleurs une NFT Factory qui sélectionne les meilleurs enseignements et les transforme en NFT.
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
-                    <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">4</div>
-                    <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
+                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
+                    <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
                         <h3 class="text-4xl lg:text-xl font-semibold">EduKaps</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            Des capsules de connaissances universelles seront envoyées comme des graines dans tous les endroits de la planète ou l'éducation est en souffrance/carence. L’EduKaps est un container de métal comportant tout ce qui est indispensable pour enseigner et accueillir des enfants : chaises, tables, écran, bibliothèque, matériel pédagogique.
+                            Des capsules de connaissances universelles seront envoyées comme des graines dans tous les endroits de la planète ou l'éducation est en souffrance/carence.
                         </p>
                     </div>
                 </div>
-                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 filter drop-shadow-3xl items-center">
-                    <div class="hidden lg:block p-6 ml-4 text-6xl text-palette-ciel font-light">5</div>
-                    <div class="flex flex-col space-y-4 lg:px-4 lg:mr-4 lg:space-y-2">
+                <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
+                    <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
                         <h3 class="text-4xl lg:text-xl font-semibold">Le fonds Ethiken</h3>
                         <p class="text-3xl lg:text-base text-justify">
                             Le fonds Ethiken dont l’objet est de garantir le cours de l’EDK et protéger l’épargne des investisseurs non-spéculateurs
@@ -143,180 +141,7 @@
                 </div>
             </div>
         </section>
-        <section id="roadmap" class="flex flex-col items-center space-y-10">
-            <h2 class="text-6xl lg:text-3xl font-semibold mt-20">
-                Roadmap
-            </h2>
-            <div class="flex flex-row justify-between items-center">
-                <div class="flex flex-col space-y-6 m-10">
-                    <div @click="a20" class="flex flex-row space-x-2 justify-between items-center">
-                        <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-b from-palette-cyan to-palette-ciel opacity-80 text-white flex justify-center items-center filter drop-shadow-xl">
-                            1
-                        </div>
-                        <div class="flex-grow text-center text-3xl lg:text-xl font-bold">2020</div>
-                        <div>
-                            <svg v-if="show_20" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                            
-                            <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div v-if="show_20" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q2</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q3</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q4</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-                    <div @click="a21" class="flex flex-row space-x-2 justify-between items-center">
-                        <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-l from-palette-ciel to-palette-cyan opacity-80 text-white flex justify-center items-center filter drop-shadow-xl">
-                            2
-                        </div>
-                        <div class="flex-grow text-center text-3xl lg:text-xl font-bold">2021</div>
-                        <div>
-                            <svg v-if="show_21" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                            <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div v-if="show_21" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q2</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q3</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q4</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-                    <div @click="a22" class="flex flex-row space-x-2 justify-between items-center">
-                        <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-l from-palette-cyan to-palette-ciel opacity-80 text-white flex justify-center items-center filter drop-shadow-xl">
-                            3
-                        </div>
-                        <div class="flex-grow text-center text-3xl lg:text-xl font-bold">2022</div>
-                        <div>
-                            <svg v-if="show_22" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                            <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div v-if="show_22" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q2</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q3</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q4</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-                    <div @click="a23" class="flex flex-row space-x-2 justify-between items-center">
-                        <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-b from-palette-ciel to-palette-cyan opacity-80 text-white flex justify-center items-center filter drop-shadow-xl">
-                            4
-                        </div>
-                        <div class="flex-grow text-center text-3xl lg:text-xl font-bold">2023</div>
-                        <div >
-                            <svg v-if="show_23" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
-                            </svg>
-                            <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div v-if="show_23" class="flex flex-col space-y-4 lg:space-y-2 ml-14">
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q2</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q3</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl  filter drop-shadow-3xl">
-                            <h3 class="text-2xl lg:text-lg font-semibold">Q4</h3>
-                            <p class="text-2xl lg:text-base">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="hidden lg:block lg:w-1/2">
-                    <img class="" src="~assets/stair_man.png">
-                </div>
-            </div>
-        </section>
-        <section class="flex flex-row space-x-20 px-20">
+        <section id="tokenomics" class="flex flex-row space-x-20 px-20 my-10">
             <div class="relative flex flex-col space-y-10 w-1/2 justify-center p-10">
                 <h2 class="text-6xl lg:text-3xl font-semibold text-center">
                     Tokenomics
@@ -325,7 +150,7 @@
                     |Details sur le lancement du token.|
                 </p>
                 <div class="absolute -left-16 -bottom-32 z-0">
-                    <svg class="stroke-0 fill-current text-palette-bleu opacity-10 filter blur-3xl" height="400" width="400">
+                    <svg class="stroke-0 fill-current text-palette-bleu opacity-10 blur-3xl" height="400" width="400">
                         <circle cx="200" cy="200" r="200" />
                     </svg>
                 </div>
@@ -334,15 +159,55 @@
                 <img src="~assets/tokenomics.png" alt="">
             </div>
         </section>
+        <section id="roadmap" class="flex flex-col items-center space-y-10">
+            <h2 class="text-6xl lg:text-3xl font-semibold mt-20">
+                Roadmap
+            </h2>
+            <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col space-y-6 m-10 lg:w-8/12">
+                    <div v-for="year in years" :key="year.id">
+                        <div @click="yClick(year.id)" class="flex flex-row space-x-2 justify-between items-center">
+                            <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-b from-palette-ciel to-palette-cyan opacity-80 text-white flex justify-center items-center drop-shadow-xl">
+                                {{ year.id }}
+                            </div>
+                            <div class="grow text-center text-3xl lg:text-xl font-bold">{{ year.name }}</div>
+                            <div >
+                                <svg v-if="year.show" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                                </svg>
+                                <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div v-if="year.show">
+                            <div class="grid grid-cols-2 gap-10 ml-14">
+                                <div v-for="quarter in year.quarters" :key="quarter.id">
+                                    <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                                        <h3 class="text-2xl lg:text-lg font-semibold">{{ quarter.id }}</h3>
+                                        <p class="text-2xl lg:text-base">
+                                            {{ quarter.content }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:block lg:w-4/12">
+                    <img class="" src="~assets/serveurs.png">
+                </div>
+            </div>
+        </section>
         <section class="">
             <div class="relative max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
                 <div class="absolute right-32 -top-16 z-0">
-                    <svg class="stroke-0 fill-current text-palette-cyan opacity-20 filter blur-3xl" height="600" width="600">
+                    <svg class="stroke-0 fill-current text-palette-cyan opacity-20  blur-3xl" height="600" width="600">
                         <circle cx="300" cy="300" r="300" />
                     </svg>
                 </div>
                 <div class="absolute left-64 bottom-16 z-0">
-                    <svg class="stroke-0 fill-current text-palette-vert opacity-10 filter blur-3xl" height="600" width="600">
+                    <svg class="stroke-0 fill-current text-palette-vert opacity-10  blur-3xl" height="600" width="600">
                         <circle cx="300" cy="300" r="300" />
                     </svg>
                 </div>
@@ -388,7 +253,7 @@
 <script>
 const people = [
   {
-    name: 'Aldrick Allal',
+    name: 'Aldrick',
     role: 'President',
     imageUrl:
       'team/aldrick.jpeg',
@@ -396,23 +261,23 @@ const people = [
     linkedinUrl: 'https://www.linkedin.com/in/aldrick-allal-53458191/',
   },
   {
-    name: 'Ialgen Allal',
-    role: 'Chief Operating Officer (COO)',
+    name: 'Ialgen',
+    role: 'Chief Operating Officer',
     imageUrl:
       'team/ialgen.jpeg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/ialgen-allal/',
   },
   {
-    name: 'Istvan Allal',
-    role: 'Chief Marketing Officer (CMO)',
+    name: 'Istvan',
+    role: 'Chief Marketing Officer',
     imageUrl:
       'team/istvan.jpeg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/istvan-a/',
   },
   {
-    name: 'Iqbal Allal',
+    name: 'Iqbal',
     role: 'Chief Data Officer',
     imageUrl:
       'team/ialgen.jpeg',
@@ -420,7 +285,7 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Alexandra Allal',
+    name: 'Alexandra',
     role: 'Chief Educational Officer',
     imageUrl:
       'team/alexandra.png',
@@ -428,16 +293,16 @@ const people = [
     linkedinUrl: '#',
   },
   {
-    name: 'Sabrina Camelot',
-    role: 'Head of ',
+    name: 'Sabrina',
+    role: 'Chief Financial Officer',
     imageUrl:
       'team/sabrina.jpeg',
     twitterUrl: '#',
     linkedinUrl: 'https://www.linkedin.com/in/sabrina-camelot-2243b234/',
   },
   {
-    name: 'Jasmina Bezdrob',
-    role: 'Head of ',
+    name: 'Jasmina',
+    role: 'Chief Legal Officer',
     imageUrl:
       'team/ialgen.jpeg',
     twitterUrl: '#',
@@ -447,41 +312,88 @@ const people = [
     name: 'more',
   },
 ]
+let years = [
+    {
+        id: 1,
+        name: '2021',
+        click: 'a21',
+        show: true,
+        quarters: {
+            Q1: {id: 'Q1', content: 'Conception, benchmark et inventaires.'},
+            Q2: {id: 'Q2', content: 'Recrutement, ingénierie pédagogique et tests.'},
+            Q3: {id: 'Q3', content: 'Expérimentations techniques et tests de faisabilité.'},
+            Q4: {id: 'Q4', content: 'Architecture et développement d’edukarta.com et edutoken.org'},
+        },
+    },
+    {
+        id: 2,
+        name: '2022',
+        click: 'a22',
+        show: false,
+        quarters: {
+            Q1: {id: 'Q1', content: 'Communication et first sales'},
+            Q2: {id: 'Q2', content: 'Lancement de la Crypto EduToken by EduKarta'},
+            Q3: {id: 'Q3', content: 'Mise en ligne de la V1 des sites internet'},
+            Q4: {id: 'Q4', content: 'MVP (Minimum Viable Product) avec inscription'},
+        },
+    },
+    {
+        id: 3,
+        name: '2023',
+        click: 'a23',
+        show: false,
+        quarters: {
+            Q1: {id: 'Q1', content: 'Mise en ligne de la V2 des sites internet'},
+            Q2: {id: 'Q2', content: 'Campagnes Students & Institutions'},
+            Q3: {id: 'Q3', content: 'Campagnes teachers'},
+            Q4: {id: 'Q4', content: 'Campagnes entreprises'},
+        },
+    }
+]
+
 export default {
     data() {
         return {
-            show_20: true,
-            show_21: false,
-            show_22: false,
-            show_23: false,
-            people
+            people,
+            years
         }
     },
     methods: {
-        a20() {
-            if (!this.show_20) {this.show_20 = !this.show_20} 
-            this.show_21 = false
-            this.show_22 = false
-            this.show_23 = false
+        yClick(y_id) {
+            for (let i = 0; i < years.length; i++) {
+                if ((i+1) == y_id) { years[i].show = true}
+                else { years[i].show = false }
+            }
         },
-        a21() {
-            this.show_20 = false
-            if (!this.show_21) {this.show_21 = !this.show_21}
-            this.show_22 = false
-            this.show_23 = false
-        },
-        a22() {
-            this.show_20 = false
-            this.show_21 = false
-            if (!this.show_22) {this.show_22 = !this.show_22}
-            this.show_23 = false
-        },
-        a23() {
-            this.show_20 = false
-            this.show_21 = false
-            this.show_22 = false
-            if (!this.show_23) {this.show_23 = !this.show_23}
-        }
     }
 }
 </script>
+
+<style scoped>
+
+.bg-network {
+
+    animation: pulse 10s linear infinite;
+    background-image: url("~assets/networkTF005x5.png");
+    background-repeat: repeat;
+}
+
+@keyframes pulse {
+    0% {
+        background-position: 0px 0px;
+    }
+    25% {
+        background-position: 15px 15px;
+    }
+    50% {
+        background-position: 0px 30px;
+    }
+    75% {
+        background-position: -15px 15px;
+    }
+    100% {
+        background-position: 0px 0px;    } 
+    }
+</style>
+
+

@@ -1,5 +1,5 @@
-export { default as FooterHome } from '../../components/footer/Home.vue'
 export { default as HeaderHome } from '../../components/header/Home.vue'
+export { default as FooterHome } from '../../components/footer/Home.vue'
 export { default as IconsBook } from '../../components/icons/Book.vue'
 export { default as IconsReader } from '../../components/icons/Reader.vue'
 export { default as IconsTeacher } from '../../components/icons/Teacher.vue'

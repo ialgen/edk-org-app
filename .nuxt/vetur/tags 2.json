@@ -1,9 +1,9 @@
 {
-  "FooterHome": {
-    "description": "Auto imported from components/footer/Home.vue"
-  },
   "HeaderHome": {
     "description": "Auto imported from components/header/Home.vue"
+  },
+  "FooterHome": {
+    "description": "Auto imported from components/footer/Home.vue"
   },
   "IconsBook": {
     "description": "Auto imported from components/icons/Book.vue"
