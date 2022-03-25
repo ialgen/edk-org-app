@@ -10,7 +10,7 @@
             <div class="flex flex-col space-y-2">
                 <div class="uppercase font-semibold text-sm">Company</div>
                 <a class="text-xs" href="/#">About DE</a>
-                <a class="text-xs" href="/#">Careers</a>
+                <a class="text-xs" href="https://forms.gle/YTXQtxFnbpRniWKS7">Careers</a>
                 <a class="text-xs" href="/#">Contact</a>
             </div>
             <div class="flex flex-col space-y-2">
@@ -20,7 +20,7 @@
             </div>
             <div class="flex flex-col space-y-2 text-blue-edk text-sm">
                 <a class="" href="/#">8 rue Hautefeuille<br/>75006, Paris<br/>France</a>
-                <a class="" href="/#">contact@company.com</a> 
+                <a class="" href="/#">official.edukarta@gmail.com</a> 
             </div>
         </div>
 

@@ -15,6 +15,40 @@ export default {
         ]
       },
 
-    buildModules: ['@nuxtjs/tailwindcss'],
+    i18n: {
+        locales: [
+            {
+                code: 'en',
+                file: 'en-GB.js',
+                name: 'English',
+                country: 'United Kingdom',
+                emoji: '🇬🇧'
+            },
+            {
+                code: 'fr',
+                file: 'fr-FR.js',
+                name: 'Français',
+                country: 'France',
+                emoji: '🇫🇷'
+            },
+        ],
+        lazy: true,
+        langDir: 'lang/',
+        defaultLocale: 'fr',
+        detectBrowserLanguage: {
+            useCookie: true,
+            cookieKey: 'i18n_redirected',
+            onlyOnRoot: true,
+            alwaysRedirect: false,
+            fallbackLocale: 'en',
+        },
+        vueI18nLoader: true,
+    },
+    modules: [
+        'nuxt-i18n',
+    ],
+    buildModules: [
+        '@nuxtjs/tailwindcss'
+    ],
     components: true,
 }

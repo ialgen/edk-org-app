@@ -5,8 +5,8 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _e1f5f100 = () => interopDefault(import('../pages/copiepourtrad.vue' /* webpackChunkName: "pages/copiepourtrad" */))
-const _5ba4236c = () => interopDefault(import('../pages/team.vue' /* webpackChunkName: "pages/team" */))
 const _5087ad35 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _5ba4236c = () => interopDefault(import('../pages/team.vue' /* webpackChunkName: "pages/team" */))
 
 const emptyFn = () => {}
 
@@ -22,15 +22,27 @@ export const routerOptions = {
   routes: [{
     path: "/copiepourtrad",
     component: _e1f5f100,
-    name: "copiepourtrad"
+    name: "copiepourtrad___fr"
+  }, {
+    path: "/en",
+    component: _5087ad35,
+    name: "index___en"
   }, {
     path: "/team",
     component: _5ba4236c,
-    name: "team"
+    name: "team___fr"
+  }, {
+    path: "/en/copiepourtrad",
+    component: _e1f5f100,
+    name: "copiepourtrad___en"
+  }, {
+    path: "/en/team",
+    component: _5ba4236c,
+    name: "team___en"
   }, {
     path: "/",
     component: _5087ad35,
-    name: "index"
+    name: "index___fr"
   }],
 
   fallback: false

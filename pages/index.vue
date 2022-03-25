@@ -2,17 +2,17 @@
     <div class="bg-network">
         <HeaderHome/>
         <section class="-top-20 relative flex flex-row justify-between items-center h-auto mt-20 p-20 bg-white bg-opacity-20">
-            <div class="absolute bottom-0 -left-48">
+            <div class="absolute bottom-0 -left-48 z-0">
                 <svg class="hidden lg:block stroke-0 fill-current text-palette-ciel opacity-20 blur-3xl" height="800" width="800">
                     <circle cx="400" cy="400" r="400" />
                 </svg>
             </div>
             <div class="flex flex-col p-10 space-y-10">
                 <h1 class="text-8xl lg:text-5xl font-semibold">
-                    The token for innovation in education. <br> Think crypto.
+                    {{ $t('headerSectionHome.title') }}
                 </h1>
                 <p class="text-3xl lg:text-xl xl:text-base">
-                    L’EduToken est une crypto-monnaie indispensable à l’univers EduKarta qui a de surcroît pour vertu de financer la totalité du projet.
+                    {{ $t('headerSectionHome.text')}}
                 </p>
                 <a href="https://edu-karta.gitbook.io/edukarta/" class="text-3xl lg:text-base">
                     <div class="cursor-pointer py-5 lg:py-3 border-2 border-palette-violet text-palette-violet text-center rounded-2xl hover:bg-palette-violet hover:text-white">
@@ -23,49 +23,42 @@
             <div class="hidden lg:block">
                 <img src="~assets/mapmonde.gif">
             </div>
-            <!--
-            <div class="hidden lg:block fill-current text-palette-violet opacity-80">
-                <svg height="500" width="500">
-                    <circle cx="250" cy="250" r="240" stroke-width="3"/>
-                </svg>
-            </div>
-            -->
         </section>
         <section class="flex flex-col">
             <div>
                 <h2 class="text-center text-6xl lg:text-3xl font-semibold">
-                    Who is EduKarta for?
+                    {{ $t('who.title') }}
                 </h2>
                 <p class="text-center text-3xl lg:text-base p-10">
-                    EduKarta est un écosystème de services et programmes dévolus à l’éducation qui concerne enfants, étudiants, parents, professeurs, grands-parents, educational institutions du monde entier.
+                    {{ $t('who.text') }}
                 </p>
             </div>
             <div class="flex flex-col space-y-10 lg:flex-row lg:justify-around lg:space-x-10 lg:space-y-0 px-32 pb-10">
                 <div class="flex flex-col items-center lg:pt-3">
                     <IconsReader/>
                     <h3 class="text-center text-5xl lg:text-xl font-semibold m-5 ">
-                        Universities
+                        {{ $t('who.university.title') }}
                     </h3>
                     <p class="text-center text-2xl lg:text-base">
-                        Chaque institution educative a sa place sur EduKarta. Petite ou grande, le référencement est gratuit et automatique. Sur EduKarta, sont recensées plus de 20 millions d'institutions dans le monde.
+                        {{ $t('who.university.text') }}
                     </p>
                 </div>
                 <div class="flex flex-col items-center">
                     <IconsBook/>
                     <h3 class="text-center text-5xl lg:text-xl font-semibold m-5">
-                        Student
+                        {{ $t('who.student.title') }}
                     </h3>
                     <p class="text-center text-2xl lg:text-base">
-                        Les étudiants et leurs parents ont accès à toutes les institutions mondiales. La création de leur compte personnel est gratuite. Utilisez EduKarta pour accéder aux informations indispensables à une orientation claire et efficace.
+                        {{ $t('who.student.text') }}
                     </p>
                 </div>
                 <div class="flex flex-col items-center lg:pt-3">
                     <IconsTeacher/>
                     <h3 class="text-center text-5xl lg:text-xl font-semibold m-5">
-                        Teacher
+                        {{ $t('who.teacher.title') }}
                     </h3>
                     <p class="text-center text-2xl lg:text-base">
-                        Avec EduKarta, les enseignants ont enfin la place qu'ils méritent dans l'écosystème éducatif international. Ce sont eux qui créent les cours et permettent aux étudiants de découvrir, aimer, apprendre, se former et devenir des pros.
+                        {{ $t('who.teacher.text') }}
                     </p>
                 </div>
             </div>
@@ -86,11 +79,11 @@
             </div>
             <div class="flex flex-col space-y-10 z-50 items-center lg:items-start lg:w-1/4">
                 <h2 class="text-6xl lg:text-3xl font-semibold">
-                    What is Edukarta?
+                    {{ $t('what.title') }}
                 </h2>
                 <img class="w-1/2 lg:w-auto" src="~assets/prof.png">
                 <p class="text-3xl lg:text-base text-center lg:text-left">
-                    EduKarta est une plateforme qui rassemble les connaissances et leurs architectes dans un monde électronique sécurisé et dynamique.
+                    {{ $t('what.text') }}
                 </p>
                 <a href="https://edu-karta.gitbook.io/edukarta/">
                     <div class="py-5 lg:py-3 bg-palette-violet rounded-lg text-white w-60 text-center lg:w-40 text-3xl lg:text-xl xl:text-base">
@@ -101,41 +94,41 @@
             <div class="grid grid-cols-3 gap-10 max-w-4xl">
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
                     <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">La carte</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">{{ $t('what.map.title') }}</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            La carte est l’élément central qui permet de visualiser rapidement et efficacement les formations adaptées à l’étudiant.
+                            {{ $t('what.map.text') }}
                         </p>
                     </div>
                 </div>
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
                     <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">L'EduToken</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">{{ $t('what.edk.title') }}</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            Grâce à l’EduToken (EDK), EduKarta garantit toutes les transactions, sécurise votre argent et vous permet d’en gagner.
+                            {{ $t('what.edk.text') }}
                         </p>
                     </div>
                 </div>
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
                     <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">La NFT Factory</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">{{ $t('what.factory.title') }}</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            EduKarta propose d’ailleurs une NFT Factory qui sélectionne les meilleurs enseignements et les transforme en NFT.
+                            {{ $t('what.factory.text') }}
                         </p>
                     </div>
                 </div>
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
                     <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">EduKaps</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">{{ $t('what.edukaps.title') }}</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            Des capsules de connaissances universelles seront envoyées comme des graines dans tous les endroits de la planète ou l'éducation est en souffrance/carence.
+                            {{ $t('what.edukaps.text') }}
                         </p>
                     </div>
                 </div>
                 <div class="flex flex-row bg-white rounded-2xl py-10 px-16 lg:py-4 lg:px-0 drop-shadow-3xl items-center w-72 h-72">
                     <div class="flex flex-col space-y-4 lg:m-12 lg:space-y-2">
-                        <h3 class="text-4xl lg:text-xl font-semibold">Le fonds Ethiken</h3>
+                        <h3 class="text-4xl lg:text-xl font-semibold">{{ $t('what.ethiken.title') }}</h3>
                         <p class="text-3xl lg:text-base text-justify">
-                            Le fonds Ethiken dont l’objet est de garantir le cours de l’EDK et protéger l’épargne des investisseurs non-spéculateurs
+                            {{ $t('what.ethiken.text') }}
                         </p>
                     </div>
                 </div>
@@ -147,7 +140,7 @@
                     Tokenomics
                 </h2>
                 <p class="text-3xl lg:text-base text-justify">
-                    |Details sur le lancement du token.|
+                    {{ $t('tokenomics.text') }}
                 </p>
                 <div class="absolute -left-16 -bottom-32 z-0">
                     <svg class="stroke-0 fill-current text-palette-bleu opacity-10 blur-3xl" height="400" width="400">
@@ -161,26 +154,28 @@
         </section>
         <section id="roadmap" class="flex flex-col items-center space-y-10">
             <h2 class="text-6xl lg:text-3xl font-semibold mt-20">
-                Roadmap
+                {{ $t('roadmap.title') }}
             </h2>
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-col space-y-6 m-10 lg:w-8/12">
-                    <div v-for="year in years" :key="year.id">
-                        <div @click="yClick(year.id)" class="flex flex-row space-x-2 justify-between items-center">
+                    <div v-for="year in years().years" :key="year.id">
+                        <!--<div @click="yClick(year.id)" class="flex flex-row space-x-2 justify-between items-center">-->
+                        <div class="flex flex-row space-x-2 justify-between items-center">
                             <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-b from-palette-ciel to-palette-cyan opacity-80 text-white flex justify-center items-center drop-shadow-xl">
-                                {{ year.id }}
+                                {{ year.id + 1 }}
                             </div>
                             <div class="grow text-center text-3xl lg:text-xl font-bold">{{ year.name }}</div>
                             <div >
-                                <svg v-if="year.show" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                <!--<svg v-if="year.show" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">-->
+                                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                                 </svg>
-                                <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                <!--<svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
-                                </svg>
+                                </svg>-->
                             </div>
                         </div>
-                        <div v-if="year.show">
+                        <div v-if="true">
                             <div class="grid grid-cols-2 gap-10 ml-14">
                                 <div v-for="quarter in year.quarters" :key="quarter.id">
                                     <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
@@ -213,17 +208,21 @@
                 </div>
                 <div class="relative space-y-12 z-10">
                     <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-                        <h2 class="text-6xl lg:text-3xl font-semibold">Meet our team</h2>
-                        <p class="text-3xl lg:text-base text-center">Contrairement à la plupart des projets crypto/blockchain composés d'équipes jeunes, EduKarta est créé par la Direction Générale de Diderot Education dont le plus jeune des membres a rejoint le groupe il y a 15 ans !</p>
+                        <h2 class="text-6xl lg:text-3xl font-semibold">{{ $t('team.title') }}</h2>
+                        <p class="text-3xl lg:text-base text-center">
+                            {{ $t('team.text') }}
+                        </p>
                     </div>
                     <ul role="list" class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-5xl">
                         <li v-for="person in people" :key="person.name">
-                            <div v-if="person.name=='more'" class="cursor-pointer p-2 space-y-6 rounded-lg shadow-md hover:shadow-inner border-blue-edk" onclick="window.location.href='#';">
-                                <img class="mx-auto h-40 w-40 rounded-full xl:w-48 xl:h-48" src="~/assets/education-token.jpg"/>
-                                <p class="text-blue-edk font-bold">
-                                    Learn more about our extended team!
-                                </p>
-                            </div>
+                            <a v-if="person.name=='more'" href="https://forms.gle/YTXQtxFnbpRniWKS7">
+                                <div class="cursor-pointer p-2 space-y-6 rounded-lg shadow-md hover:shadow-inner border-blue-edk" onclick="window.location.href='#';">
+                                    <img class="mx-auto h-40 w-40 rounded-full xl:w-48 xl:h-48" src="~/assets/education-token.jpg"/>
+                                    <p class="text-blue-edk font-bold">
+                                        {{ $t('team.career') }}
+                                    </p>
+                                </div>
+                            </a>
                             <div v-else class="space-y-6">
                                 <img class="shadow-md mx-auto h-40 w-40 rounded-full xl:w-48 xl:h-48" :src="require(`~/assets/${person.imageUrl}`)"/>
                                 <div class="space-y-2">
@@ -231,7 +230,7 @@
                                         <h3>{{ person.name }}</h3>
                                         <p class="text-palette-violet">{{ person.role }}</p>
                                     </div>
-                                    <div class="flex justify-center space-x-5">
+                                    <div v-if="person.linkedin" class="flex justify-center space-x-5">
                                         <a :href="person.linkedinUrl" class="text-blue-600 hover:text-blue-800">
                                             <span class="sr-only">LinkedIn</span>
                                             <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
@@ -257,124 +256,131 @@ const people = [
     role: 'President',
     imageUrl:
       'team/aldrick.jpeg',
-    twitterUrl: '#',
+    linkedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/aldrick-allal-53458191/',
+  },
+  {
+    name: 'Alexandra',
+    role: 'Chief Educational Officer',
+    imageUrl:
+      'team/alexandra.jpeg',
+    linkedin: false,
+    linkedinUrl: '#',
   },
   {
     name: 'Ialgen',
     role: 'Chief Operating Officer',
     imageUrl:
       'team/ialgen.jpeg',
-    twitterUrl: '#',
+    linkedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/ialgen-allal/',
-  },
-  {
-    name: 'Istvan',
-    role: 'Chief Marketing Officer',
-    imageUrl:
-      'team/istvan.jpeg',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/istvan-a/',
-  },
-  {
-    name: 'Iqbal',
-    role: 'Chief Data Officer',
-    imageUrl:
-      'team/ialgen.jpeg',
-    twitterUrl: '#',
-    linkedinUrl: '#',
-  },
-  {
-    name: 'Alexandra',
-    role: 'Chief Educational Officer',
-    imageUrl:
-      'team/alexandra.png',
-    twitterUrl: '#',
-    linkedinUrl: '#',
   },
   {
     name: 'Sabrina',
     role: 'Chief Financial Officer',
     imageUrl:
       'team/sabrina.jpeg',
-    twitterUrl: '#',
+    linkedin: true,
     linkedinUrl: 'https://www.linkedin.com/in/sabrina-camelot-2243b234/',
   },
   {
-    name: 'Jasmina',
+    name: 'Istvan',
     role: 'Chief Legal Officer',
     imageUrl:
-      'team/ialgen.jpeg',
-    twitterUrl: '#',
-    linkedinUrl: 'https://www.linkedin.com/in/jasmina-bezdrob-5b474880/',
+      'team/istvan.jpeg',
+    linkedin: true,
+    linkedinUrl: 'https://www.linkedin.com/in/istvan-a/',
+  },
+  {
+    name: 'Ghenima',
+    role: 'Data Analyst',
+    imageUrl:
+      'team/ghenima.jpeg',
+    linkedin: true,
+    linkedinUrl: 'https://www.linkedin.com/in/ghenima-chellouche-4266b4172',
+  },
+  {
+    name: 'Iqbal',
+    role: '|poste|',
+    imageUrl:
+      'team/iqbal.jpeg',
+    linkedin: false,
+    linkedinUrl: '#',
   },
   {
     name: 'more',
   },
 ]
-let years = [
-    {
-        id: 1,
-        name: '2021',
-        click: 'a21',
-        show: true,
-        quarters: {
-            Q1: {id: 'Q1', content: 'Conception, benchmark et inventaires.'},
-            Q2: {id: 'Q2', content: 'Recrutement, ingénierie pédagogique et tests.'},
-            Q3: {id: 'Q3', content: 'Expérimentations techniques et tests de faisabilité.'},
-            Q4: {id: 'Q4', content: 'Architecture et développement d’edukarta.com et edutoken.org'},
-        },
-    },
-    {
-        id: 2,
-        name: '2022',
-        click: 'a22',
-        show: false,
-        quarters: {
-            Q1: {id: 'Q1', content: 'Communication et first sales'},
-            Q2: {id: 'Q2', content: 'Lancement de la Crypto EduToken by EduKarta'},
-            Q3: {id: 'Q3', content: 'Mise en ligne de la V1 des sites internet'},
-            Q4: {id: 'Q4', content: 'MVP (Minimum Viable Product) avec inscription'},
-        },
-    },
-    {
-        id: 3,
-        name: '2023',
-        click: 'a23',
-        show: false,
-        quarters: {
-            Q1: {id: 'Q1', content: 'Mise en ligne de la V2 des sites internet'},
-            Q2: {id: 'Q2', content: 'Campagnes Students & Institutions'},
-            Q3: {id: 'Q3', content: 'Campagnes teachers'},
-            Q4: {id: 'Q4', content: 'Campagnes entreprises'},
-        },
-    }
-]
+
+//let yearsShow = [true, false, false]
+//let yearId
 
 export default {
     data() {
         return {
             people,
-            years
+            //yearsShow,
         }
     },
     methods: {
-        yClick(y_id) {
-            for (let i = 0; i < years.length; i++) {
-                if ((i+1) == y_id) { years[i].show = true}
-                else { years[i].show = false }
+        /*yClick(y_id) {
+            for (let i = 0; i < yearsShow.length; i++) {
+                if (i == y_id) { yearsShow[i] = true}
+                else { yearsShow[i] = false }
             }
-        },
+        },*/
+        years(boolY) {
+            return {
+                years: [
+                    {
+                        id: 0,
+                        name: '2021',
+                        click: 'a21',
+                        //show: boolY[0],
+                        quarters: {
+                            Q1: {id: 'Q1', content: this.$i18n.t('roadmap.years.y21.q1')},
+                            Q2: {id: 'Q2', content: this.$i18n.t('roadmap.years.y21.q2')},
+                            Q3: {id: 'Q3', content: this.$i18n.t('roadmap.years.y21.q3')},
+                            Q4: {id: 'Q4', content: this.$i18n.t('roadmap.years.y21.q4')},
+                        }
+                    },
+                    {
+                        id: 1,
+                        name: '2022',
+                        click: 'a22',
+                        //show: boolY[1],
+                        quarters: {
+                            Q1: {id: 'Q1', content: this.$i18n.t('roadmap.years.y22.q1')},
+                            Q2: {id: 'Q2', content: this.$i18n.t('roadmap.years.y22.q2')},
+                            Q3: {id: 'Q3', content: this.$i18n.t('roadmap.years.y22.q3')},
+                            Q4: {id: 'Q4', content: this.$i18n.t('roadmap.years.y22.q4')},
+                        }
+                    },
+                    {
+                        id: 2,
+                        name: '2023',
+                        click: 'a23',
+                        //show: boolY[2],
+                        quarters: {
+                            Q1: {id: 'Q1', content: this.$i18n.t('roadmap.years.y23.q1')},
+                            Q2: {id: 'Q2', content: this.$i18n.t('roadmap.years.y23.q2')},
+                            Q3: {id: 'Q3', content: this.$i18n.t('roadmap.years.y23.q3')},
+                            Q4: {id: 'Q4', content: this.$i18n.t('roadmap.years.y23.q4')},
+                        }
+                    }
+                ]
+            }
+        }
     }
+    
 }
 </script>
 
 <style scoped>
 
 .bg-network {
-
     animation: pulse 10s linear infinite;
-    background-image: url("~assets/networkTF005x5.png");
+    background-image: url("~assets/networkCOMP.jpeg");
     background-repeat: repeat;
 }
 
