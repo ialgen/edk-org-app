@@ -14,7 +14,7 @@
                 <p class="text-3xl lg:text-xl xl:text-base">
                     {{ $t('headerSectionHome.text')}}
                 </p>
-                <a href="https://edu-karta.gitbook.io/edukarta/" class="text-3xl lg:text-base">
+                <a href="https://edu-karta.gitbook.io/edukarta/" class="text-3xl lg:text-base z-50">
                     <div class="cursor-pointer py-5 lg:py-3 border-2 border-palette-violet text-palette-violet text-center rounded-2xl hover:bg-palette-violet hover:text-white">
                         Whitepaper
                     </div>
@@ -33,7 +33,7 @@
                     {{ $t('who.text') }}
                 </p>
             </div>
-            <div class="flex flex-col space-y-10 lg:flex-row lg:justify-around lg:space-x-10 lg:space-y-0 px-32 pb-10">
+            <div class="flex flex-col space-y-10 lg:grid lg:grid-cols-3 lg:justify-evenly lg:space-x-10 lg:space-y-0 px-32 pb-10">
                 <div class="flex flex-col items-center lg:pt-3">
                     <IconsReader/>
                     <h3 class="text-center text-5xl lg:text-xl font-semibold m-5 ">

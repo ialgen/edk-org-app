@@ -32,10 +32,14 @@
             </div>
             <LogoFooter/>
             <div class="flex flex-row space-x-4">
-                <IconsSocialMedium/>
-                <IconsSocialTwitter/>
-                <IconsSocialLinkedin/>
-                <IconsSocialTelegram/>
+                <!--<IconsSocialMedium/>-->
+                <a href="https://twitter.com/EduKarta">
+                    <IconsSocialTwitter/>
+                </a>
+                <a href="https://www.linkedin.com/company/edukarta">
+                    <IconsSocialLinkedin/>
+                </a>
+                <!--<IconsSocialTelegram/>-->
             </div>
             <div class="w-1/4 hidden xl:block">
                 <svg height="10" xmlns="http://www.w3.org/2000/svg">

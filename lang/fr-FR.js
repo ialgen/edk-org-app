@@ -4,7 +4,7 @@ export default {
         anchor2: "Roadmap",
     },
     headerSectionHome: {
-        title: 'The token for innovation in education. Think crypto.',
+        title: 'Le token francçais pour l\'éducation mondiale. Forgez un esprit crypto.',
         text: "L’EduToken est une crypto-monnaie indispensable à l’univers EduKarta qui a de surcroît pour vertu de financer la totalité du projet."
     },
     who: {
@@ -24,7 +24,7 @@ export default {
         }
     },
     what: {
-        title: "EduKarta, c'est quoi ?",
+        title: "Qu'est-ce qu'EduKarta ?",
         text: "EduKarta est une plateforme qui rassemble les connaissances et leurs architectes dans un monde électronique sécurisé et dynamique.",
         map: {
             title: "La carte",
@@ -49,7 +49,7 @@ export default {
     },
     tokenomics: {
         title: "Tokenomics",
-        text: "|Details sur le lancement du token.|",
+        text: "La vente publique de l'EduToken se déroulera en 2022. Les smartcontracts du jeton et de la vente seront mis en ligne une semaine avant le début de la vente.",
     },
     roadmap: {
         title: "Roadmap",
@@ -63,15 +63,15 @@ export default {
             },
             y22: {
                 title: "2022",
-                q1: "Communication et first sales.",
-                q2: "Lancement de la crypto EduToken by EduKarta.",
+                q1: "Communication et première ventes.",
+                q2: "Lancement de la crypto EduToken par EduKarta.",
                 q3: "Mise en ligne de la V1 des sites internet.",
                 q4: "MVP (Minimum Viable Product) avec inscription",
             },
             y23: {
                 title: "2023",
                 q1: "Mise en ligne de la V2 des sites internet.",
-                q2: "Campagnes Students & Institutions.",
+                q2: "Campagnes étudiants & institutions.",
                 q3: "Campagnes enseignants.",
                 q4: "Campagnes entreprises.",
             }
