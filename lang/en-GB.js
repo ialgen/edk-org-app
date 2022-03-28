@@ -5,7 +5,7 @@ export default {
     },
     headerSectionHome: {
         title: "The token for innovation in education. Think crypto.",
-        text: "EduToken finances the entirety of the project and is therefore essential to the EduKarta ecosystem EDK will be launched during a public sale over several phases."
+        text: "EduToken finances the entirety of the project and is therefore essential to the EduKarta ecosystem."
     },
     who: {
         title: "Who is EduKarta for?",

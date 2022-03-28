@@ -18,14 +18,18 @@
                 <a class="text-xs" href="/#">Cookies policy</a>
                 <a class="text-xs" href="/#">Privacy policy</a>
             </div>
-            <div class="flex flex-col space-y-2 text-blue-edk text-sm">
+            <div class="hidden sm:flex sm:flex-col sm:space-y-2 sm:text-blue-edk sm:text-sm">
                 <a class="" href="/#">8 rue Hautefeuille<br/>75006, Paris<br/>France</a>
                 <a class="" href="/#">official.edukarta@gmail.com</a> 
             </div>
         </div>
+        <div class="flex flex-col space-y-2 text-blue-edk text-sm m-5 justify-center sm:hidden">
+            <a class="text-center" href="/#">8 rue Hautefeuille<br/>75006, Paris<br/>France</a>
+            <a class="text-center" href="/#">official.edukarta@gmail.com</a> 
+        </div>
 
-        <div class="flex flex-row items-center justify-center space-x-20 my-12">
-            <div class="w-1/4 hidden xl:block">
+        <div class="flex flex-col sm:flex-row items-center justify-center space-y-5 sm:space-y-0 sm:space-x-20 sm:my-12">
+            <div class="lg:w-1/4 hidden lg:block">
                 <svg height="10" xmlns="http://www.w3.org/2000/svg">
                     <line x1="0" y1="8" x2="300" y2="8" stroke="#80AEF9"/>
                 </svg>
@@ -41,7 +45,7 @@
                 </a>
                 <!--<IconsSocialTelegram/>-->
             </div>
-            <div class="w-1/4 hidden xl:block">
+            <div class="lg:w-1/4 hidden lg:block">
                 <svg height="10" xmlns="http://www.w3.org/2000/svg">
                     <line x1="0" y1="8" x2="300" y2="8" stroke="#80AEF9"/>
                 </svg>

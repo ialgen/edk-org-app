@@ -4,7 +4,7 @@
             <a href="/" class="m-4 cursor-pointer z-50">
                 <div><LogoMainBlack/></div>
             </a>
-            <div class="hidden sm:flex sm:flex-row sm:items-center sm:space-x-10 sm:font-medium">
+            <div class="hidden sm:flex sm:flex-row sm:items-center sm:space-x-5 lg:space-x-10 sm:font-medium">
                 <NuxtLink to="#edukarta">{{ $t('headerHome.anchor1')}}</NuxtLink>
                 <NuxtLink to="#roadmap">{{ $t('headerHome.anchor2')}}</NuxtLink>
                 <NuxtLink to="#tokenomics">EduToken</NuxtLink>
@@ -32,7 +32,9 @@
             <NuxtLink to="#edukarta">{{ $t('headerHome.anchor1')}}</NuxtLink>
             <NuxtLink to="#roadmap">{{ $t('headerHome.anchor2')}}</NuxtLink>
             <div> EduToken </div>
-            <button class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu"> EduKarta </button>
+            <a href="https://www.edukarta.com/" class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu">
+                EduKarta
+            </a>
         </div>
     </div>
     
@@ -40,11 +42,12 @@
 
 <script>
 let language = "fr"
+let open = false
 
 export default {
     data() {
         return {
-            open: false,
+            open,
             language
         }
     },

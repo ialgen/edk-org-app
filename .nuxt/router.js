@@ -7,6 +7,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _e1f5f100 = () => interopDefault(import('../pages/copiepourtrad.vue' /* webpackChunkName: "pages/copiepourtrad" */))
 const _5087ad35 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 const _5ba4236c = () => interopDefault(import('../pages/team.vue' /* webpackChunkName: "pages/team" */))
+const _eb743026 = () => interopDefault(import('../pages/testfoot.vue' /* webpackChunkName: "pages/testfoot" */))
 
 const emptyFn = () => {}
 
@@ -32,6 +33,10 @@ export const routerOptions = {
     component: _5ba4236c,
     name: "team___fr"
   }, {
+    path: "/testfoot",
+    component: _eb743026,
+    name: "testfoot___fr"
+  }, {
     path: "/en/copiepourtrad",
     component: _e1f5f100,
     name: "copiepourtrad___en"
@@ -39,6 +44,10 @@ export const routerOptions = {
     path: "/en/team",
     component: _5ba4236c,
     name: "team___en"
+  }, {
+    path: "/en/testfoot",
+    component: _eb743026,
+    name: "testfoot___en"
   }, {
     path: "/",
     component: _5087ad35,

@@ -4,7 +4,7 @@ export default {
         anchor2: "Roadmap",
     },
     headerSectionHome: {
-        title: 'Le token francçais pour l\'éducation mondiale. Forgez un esprit crypto.',
+        title: 'Le token français pour l\'éducation mondiale. Forgez un esprit crypto.',
         text: "L’EduToken est une crypto-monnaie indispensable à l’univers EduKarta qui a de surcroît pour vertu de financer la totalité du projet."
     },
     who: {
