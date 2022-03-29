@@ -1,11 +1,11 @@
 <template>
-    <div class=""><!--mettre background-->
+    <div class="bg-network">
         <HeaderHome/>
         <section class="-top-20 relative flex flex-row justify-between items-center h-auto mt-20 p-8 lg:p-20 bg-white bg-opacity-20">
             <div class="absolute bottom-0 -left-48 z-0">
-                <svg class="hidden lg:block stroke-0 fill-current text-palette-ciel opacity-20 blur-3xl" height="800" width="800">
+                <!--<svg class="hidden lg:block stroke-0 fill-current text-palette-ciel opacity-20 blur-3xl" height="800" width="800">
                     <circle cx="400" cy="400" r="400" />
-                </svg>
+                </svg>-->
             </div>
             <div class="flex flex-col p-2 lg:p-10 space-y-5 lg:space-y-10">
                 <h1 class="text-5xl lg:text-5xl font-semibold">
@@ -14,7 +14,7 @@
                 <p class="text-xl lg:text-xl xl:text-base">
                     {{ $t('headerSectionHome.text')}}
                 </p>
-                <a href="https://edu-karta.gitbook.io/edukarta/" class="text-3xl lg:text-base z-50">
+                <a href="https://whitepaper.edutoken.org" class="text-3xl lg:text-base z-50">
                     <div class="text-lg lg:ext-base text-center cursor-pointer py-3 lg:py-3 border-2 border-palette-violet text-palette-violet rounded-2xl hover:bg-palette-violet hover:text-white">
                         Whitepaper
                     </div>
@@ -68,14 +68,14 @@
         </section>
         <section id="edukarta" class="relative flex flex-col space-y-10 px-10 h-auto items-center lg:flex-row lg:justify-around lg:space-x-10 lg:px-20">
             <div class="absolute right-0 -top-32 z-0">
-                <svg class="stroke-0 fill-current text-palette-cyan opacity-20 blur-3xl" height="600" width="600">
+                <!--<svg class="stroke-0 fill-current text-palette-cyan opacity-20 blur-3xl" height="600" width="600">
                     <circle cx="300" cy="300" r="300" />
-                </svg>
+                </svg>-->
             </div>
             <div class="absolute -left-16 -bottom-32 z-0">
-                <svg class="stroke-0 fill-current text-palette-bleu opacity-20 blur-3xl" height="400" width="400">
+                <!--<svg class="stroke-0 fill-current text-palette-bleu opacity-20 blur-3xl" height="400" width="400">
                     <circle cx="200" cy="200" r="200" />
-                </svg>
+                </svg>-->
             </div>
             <div class="flex flex-col space-y-10 z-50 items-center lg:items-start lg:w-1/4">
                 <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold">
@@ -143,9 +143,9 @@
                     {{ $t('tokenomics.text') }}
                 </p>
                 <div class="absolute -left-16 -bottom-32 z-0">
-                    <svg class="stroke-0 fill-current text-palette-bleu opacity-10 blur-3xl" height="400" width="400">
+                    <!--<svg class="stroke-0 fill-current text-palette-bleu opacity-10 blur-3xl" height="400" width="400">
                         <circle cx="200" cy="200" r="200" />
-                    </svg>
+                    </svg>-->
                 </div>
             </div>
             <div class="w-full sm:w-1/2 lg:w-1/2 p-5 lg:p-0">
@@ -196,7 +196,7 @@
         </section>
         <section id="team" class="">
             <div class="relative max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
-                <div class="absolute right-32 -top-16 z-0">
+                <!--<div class="absolute right-32 -top-16 z-0">
                     <svg class="stroke-0 fill-current text-palette-cyan opacity-20  blur-3xl" height="600" width="600">
                         <circle cx="300" cy="300" r="300" />
                     </svg>
@@ -205,7 +205,7 @@
                     <svg class="stroke-0 fill-current text-palette-vert opacity-10  blur-3xl" height="600" width="600">
                         <circle cx="300" cy="300" r="300" />
                     </svg>
-                </div>
+                </div>-->
                 <div class="relative space-y-12 z-10">
                     <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
                         <h2 class="text-xl sm:text-2xl lg:text-3xl font-semibold">{{ $t('team.title') }}</h2>
@@ -301,7 +301,7 @@ const people = [
   },
   {
     name: 'Iqbal',
-    role: '|poste|',
+    role: 'International Business Development',
     imageUrl:
       'team/iqbal.jpeg',
     linkedin: false,

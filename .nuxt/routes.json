@@ -14,18 +14,18 @@
     "_name": "_5087ad35"
   },
   {
+    "name": "roadmaptest___fr",
+    "path": "/roadmaptest",
+    "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/roadmaptest.vue",
+    "chunkName": "pages/roadmaptest",
+    "_name": "_7e5ebaf1"
+  },
+  {
     "name": "team___fr",
     "path": "/team",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/team.vue",
     "chunkName": "pages/team",
     "_name": "_5ba4236c"
-  },
-  {
-    "name": "testfoot___fr",
-    "path": "/testfoot",
-    "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/testfoot.vue",
-    "chunkName": "pages/testfoot",
-    "_name": "_eb743026"
   },
   {
     "name": "copiepourtrad___en",
@@ -35,18 +35,18 @@
     "_name": "_e1f5f100"
   },
   {
+    "name": "roadmaptest___en",
+    "path": "/en/roadmaptest",
+    "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/roadmaptest.vue",
+    "chunkName": "pages/roadmaptest",
+    "_name": "_7e5ebaf1"
+  },
+  {
     "name": "team___en",
     "path": "/en/team",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/team.vue",
     "chunkName": "pages/team",
     "_name": "_5ba4236c"
-  },
-  {
-    "name": "testfoot___en",
-    "path": "/en/testfoot",
-    "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/testfoot.vue",
-    "chunkName": "pages/testfoot",
-    "_name": "_eb743026"
   },
   {
     "name": "index___fr",
