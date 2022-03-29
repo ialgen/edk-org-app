@@ -1,0 +1,172 @@
+<template>
+    <div class="">
+        <section id="roadmap" class="flex flex-col items-center space-y-10">
+            <h2 class="text-6xl lg:text-3xl font-semibold mt-20">
+                Roadmap
+            </h2>
+            <div class="flex flex-row justify-between items-center">
+                <div class="flex flex-col space-y-6 m-10">
+                    <div @click="a20" class="flex flex-row space-x-2 justify-between items-center">
+                        <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-b from-palette-cyan to-palette-ciel opacity-80 text-white flex justify-center items-center drop-shadow-xl">
+                            1
+                        </div>
+                        <div class="grow text-center text-3xl lg:text-xl font-bold">2021</div>
+                        <div>
+                            <svg v-if="show_20" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                            
+                            <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div v-if="show_20" class="grid grid-cols-2 gap-10 ml-14">
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y21.q1') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q2</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y21.q2') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q3</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y21.q3') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q4</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y21.q4') }}
+                            </p>
+                        </div>
+                    </div>
+                    <div @click="a21" class="flex flex-row space-x-2 justify-between items-center">
+                        <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-l from-palette-ciel to-palette-cyan opacity-80 text-white flex justify-center items-center drop-shadow-xl">
+                            2
+                        </div>
+                        <div class="grow text-center text-3xl lg:text-xl font-bold">2022</div>
+                        <div>
+                            <svg v-if="show_21" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                            <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div v-if="show_21" class="grid grid-cols-2 gap-10 ml-14">
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y22.q1') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q2</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y22.q2') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl   drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q3</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y22.q3') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl   drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q4</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y22.q4') }}
+                            </p>
+                        </div>
+                    </div>
+                    <div @click="a22" class="flex flex-row space-x-2 justify-between items-center">
+                        <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-l from-palette-cyan to-palette-ciel opacity-80 text-white flex justify-center items-center drop-shadow-xl">
+                            3
+                        </div>
+                        <div class="grow text-center text-3xl lg:text-xl font-bold">2023</div>
+                        <div>
+                            <svg v-if="show_22" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                            </svg>
+                            <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div v-if="show_22" class="grid grid-cols-2 gap-10 ml-14">
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y23.q1') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q2</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y23.q2') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q3</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y23.q3') }}
+                            </p>
+                        </div>
+                        <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
+                            <h3 class="text-2xl lg:text-lg font-semibold">Q4</h3>
+                            <p class="text-2xl lg:text-base">
+                                {{ $t('roadmap.years.y23.q4') }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden lg:block lg:w-1/2">
+                    <img class="" src="~assets/serveurs.png">
+                </div>
+            </div>
+        </section>
+    </div>
+</template>
+
+<script>
+
+export default {
+    data() {
+        return {
+            show_20: true,
+            show_21: false,
+            show_22: false,
+        }
+    },
+    methods: {
+        a20() {
+            if (!this.show_20) {this.show_20 = !this.show_20} 
+            this.show_21 = false
+            this.show_22 = false
+        },
+        a21() {
+            this.show_20 = false
+            if (!this.show_21) {this.show_21 = !this.show_21}
+            this.show_22 = false
+        },
+        a22() {
+            this.show_20 = false
+            this.show_21 = false
+            if (!this.show_22) {this.show_22 = !this.show_22}
+        },
+    }
+}
+</script>
+
+<style scoped>
+</style>
+
+

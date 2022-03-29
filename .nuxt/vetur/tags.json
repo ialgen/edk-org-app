@@ -2,10 +2,40 @@
   "HeaderHome": {
     "description": "Auto imported from components/header/Home.vue"
   },
+  "IconsBook": {
+    "description": "Auto imported from components/icons/Book.vue"
+  },
+  "IconsReader": {
+    "description": "Auto imported from components/icons/Reader.vue"
+  },
+  "IconsTeacher": {
+    "description": "Auto imported from components/icons/Teacher.vue"
+  },
+  "LogoFooter": {
+    "description": "Auto imported from components/logo/Footer.vue"
+  },
   "LogoMainBlack": {
     "description": "Auto imported from components/logo/MainBlack.vue"
   },
   "LogoMainWhite": {
     "description": "Auto imported from components/logo/MainWhite.vue"
+  },
+  "MenuLang": {
+    "description": "Auto imported from components/menu/Lang.vue"
+  },
+  "FooterHome": {
+    "description": "Auto imported from components/footer/Home.vue"
+  },
+  "IconsSocialLinkedin": {
+    "description": "Auto imported from components/icons/social/linkedin.vue"
+  },
+  "IconsSocialMedium": {
+    "description": "Auto imported from components/icons/social/medium.vue"
+  },
+  "IconsSocialTelegram": {
+    "description": "Auto imported from components/icons/social/telegram.vue"
+  },
+  "IconsSocialTwitter": {
+    "description": "Auto imported from components/icons/social/twitter.vue"
   }
 }

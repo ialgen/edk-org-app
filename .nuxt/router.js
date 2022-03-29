@@ -4,7 +4,10 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _e1f5f100 = () => interopDefault(import('../pages/copiepourtrad.vue' /* webpackChunkName: "pages/copiepourtrad" */))
 const _5087ad35 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _7e5ebaf1 = () => interopDefault(import('../pages/roadmaptest.vue' /* webpackChunkName: "pages/roadmaptest" */))
+const _5ba4236c = () => interopDefault(import('../pages/team.vue' /* webpackChunkName: "pages/team" */))
 
 const emptyFn = () => {}
 
@@ -18,9 +21,37 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/copiepourtrad",
+    component: _e1f5f100,
+    name: "copiepourtrad___fr"
+  }, {
+    path: "/en",
+    component: _5087ad35,
+    name: "index___en"
+  }, {
+    path: "/roadmaptest",
+    component: _7e5ebaf1,
+    name: "roadmaptest___fr"
+  }, {
+    path: "/team",
+    component: _5ba4236c,
+    name: "team___fr"
+  }, {
+    path: "/en/copiepourtrad",
+    component: _e1f5f100,
+    name: "copiepourtrad___en"
+  }, {
+    path: "/en/roadmaptest",
+    component: _7e5ebaf1,
+    name: "roadmaptest___en"
+  }, {
+    path: "/en/team",
+    component: _5ba4236c,
+    name: "team___en"
+  }, {
     path: "/",
     component: _5087ad35,
-    name: "index"
+    name: "index___fr"
   }],
 
   fallback: false

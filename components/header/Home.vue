@@ -1,57 +1,74 @@
 <template>
-    <header id="nav" class="transition bg-blue-edk bg-opacity-0 flex flex-row justify-between items-center fixed inset-x-0">
-        <div class="m-4">
-            <LogoMainWhite/>
-        </div>
-        <div class="flex flex-row items-center">
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white">
-                <path 
-                    stroke-linecap="round" 
-                    stroke-linejoin="round" 
-                    stroke-width="2" 
-                    d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" 
-                />
-            </svg>
-            <div class="flex flex-row justify-between border-2 rounded-lg p-1 m-4">
-                <svg class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24" stroke="white">
+    <div class="shadow">
+        <header class="transition h-20 flex flex-row justify-between items-center pr-10 pl-10 bg-palette-cyan bg-opacity-20">
+            <a href="/" class="m-4 cursor-pointer z-50">
+                <div><LogoMainBlack/></div>
+            </a>
+            <div class="hidden sm:flex sm:flex-row sm:items-center sm:space-x-5 lg:space-x-10 sm:font-medium">
+                <NuxtLink to="#edukarta">{{ $t('headerHome.anchor1')}}</NuxtLink>
+                <NuxtLink to="#roadmap">{{ $t('headerHome.anchor2')}}</NuxtLink>
+                <NuxtLink to="#tokenomics">EduToken</NuxtLink>
+                <MenuLang/>
+                <a href="https://www.edukarta.com/" class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu">
+                    EduKarta
+                </a>
+            </div>
+            <div class="-mr-2 flex items-center sm:hidden">
+                <!-- Mobile menu button -->
+                <button @click="open_menu" class="">
+                <!-- Icon when menu is close. -->
+                <svg v-if="!open" class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
-                <svg class="h-6 w-6 m-1" fill="none" viewBox="0 0 24 24" stroke="white">
-                    <path 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round" 
-                        stroke-width="2" 
-                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                <!-- Icon when menu is open. -->
+                <svg v-else class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
+                </button>
             </div>
+        </header>
+        <!-- Mobile menu -->
+        <div v-if="open" class="sm:hidden flex flex-col items-center space-y-4 p-4 font-medium bg-palette-cyan bg-opacity-20">
+            <NuxtLink to="#edukarta">{{ $t('headerHome.anchor1')}}</NuxtLink>
+            <NuxtLink to="#roadmap">{{ $t('headerHome.anchor2')}}</NuxtLink>
+            <div> EduToken </div>
+            <a href="https://www.edukarta.com/" class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu">
+                EduKarta
+            </a>
         </div>
-    </header>
+    </div>
+    
 </template>
 
 <script>
-/*export default {
-    mounted() {
-        this.$nextTick(function(){
-            window.addEventListener("scroll", function(){
-                var navbar = document.getElementById("nav");
-                var nav_classes = navbar.classList;
-                if(document.body.scrollTop > 150 || document.documentElement.scrollTop >= 150) {
-                    nav_classes.toggle("bg-opacity-0");
-                }
-            })
-        })
-    },
-}*/
+let language = "fr"
+let open = false
+
 export default {
-    mounted() {
-        window.onscroll = function(){
-            var navbar = document.getElementById("nav");
-            var nav_classes = navbar.classList;
-            if(document.body.scrollTop > 300 || document.documentElement.scrollTop >= 300) {
-                nav_classes.remove("bg-opacity-0");
+    data() {
+        return {
+            open,
+            language
+        }
+    },
+    methods: {
+        open_menu() {
+            this.open = !this.open
+        },
+        change_lang() {
+            if (language == 'fr') {
+                this.language = 'en'
+                this.$i18n.setLocale('en')
+                console.log("passage")
             } else {
-                nav_classes.add("bg-opacity-0")
+                this.language = 'fr'
+                this.$i18n.setLocale('fr')
             }
+        }
+    },
+    computed: {
+        availableLocales () {
+            return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
         }
     }
 }
