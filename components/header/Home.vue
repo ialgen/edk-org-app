@@ -31,7 +31,7 @@
         <div v-if="open" class="sm:hidden flex flex-col items-center space-y-4 p-4 font-medium bg-palette-cyan bg-opacity-20">
             <NuxtLink to="#edukarta">{{ $t('headerHome.anchor1')}}</NuxtLink>
             <NuxtLink to="#roadmap">{{ $t('headerHome.anchor2')}}</NuxtLink>
-            <div> EduToken </div>
+            <NuxtLink to="#tokenomics">EduToken</NuxtLink>
             <a href="https://www.edukarta.com/" class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu">
                 EduKarta
             </a>
