@@ -9,17 +9,17 @@ export default {
     },
     who: {
         title: "À qui s'adresse EduKarta ?",
-        text: "EduKarta est un écosystème de services et programmes dévolus à l’éducation qui concerne enfants, étudiants, parents, professeurs, grands-parents, educational institutions du monde entier.",
+        text: "EduKarta est un écosystème de services et programmes dévolus à l’Education. Il est indispensable aux étudiants (et leur famille), professeurs (tous niveaux), institutions éducatives (enseignement secondaire et supérieur) et entreprises du monde entier.",
         teacher: {
-            title: "Professeurs",
+            title: "Enseignants & Professeurs",
             text: "Avec EduKarta, les enseignants ont enfin la place qu'ils méritent dans l'écosystème éducatif international. Ce sont eux qui créent les cours et permettent aux étudiants de découvrir, aimer, apprendre, se former et devenir des pros.",
         },
         student: {
-            title: "Étudiants",
+            title: "Etudiants & Elèves",
             text: "Les étudiants et leurs parents ont accès à toutes les institutions mondiales. La création de leur compte personnel est gratuite. Utilisez EduKarta pour accéder aux informations indispensables à une orientation claire et efficace.",
         },
         university: {
-            title: "Universités",
+            title: "Etablissements d'enseignement",
             text: "Chaque institution educative a sa place sur EduKarta. Petite ou grande, le référencement est gratuit et automatique. Sur EduKarta, sont recensées plus de 20 millions d'institutions dans le monde.",
         }
     },
@@ -28,7 +28,11 @@ export default {
         text: "EduKarta est une plateforme qui rassemble les connaissances et leurs architectes dans un monde électronique sécurisé et dynamique.",
         map: {
             title: "La carte",
-            text: "La carte est l’élément central qui permet de visualiser rapidement et efficacement les formations adaptées à l’étudiant.",
+            text: "La carte est l'outil central qui permet de rechercher, trouver et visualiser en 2 clics les formations et institutions qui intéressent les étudiants et les enseignants.",
+        },
+        profile: {
+            title: "Fiche institution",
+            text: "EduKarta a recensé plus de 20 millions d'établissements d'enseignement scolaire et supérieur dans le monde. Chaque Institution possède une fiche de présentation.",
         },
         edk: {
             title: "L'EduToken",

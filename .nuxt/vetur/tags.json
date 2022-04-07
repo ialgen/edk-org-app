@@ -1,15 +1,21 @@
 {
+  "FooterHome": {
+    "description": "Auto imported from components/footer/Home.vue"
+  },
   "HeaderHome": {
     "description": "Auto imported from components/header/Home.vue"
   },
   "IconsBook": {
-    "description": "Auto imported from components/icons/Book.vue"
+    "description": "Auto imported from components/Icons/Book.vue"
   },
   "IconsReader": {
-    "description": "Auto imported from components/icons/Reader.vue"
+    "description": "Auto imported from components/Icons/Reader.vue"
   },
   "IconsTeacher": {
-    "description": "Auto imported from components/icons/Teacher.vue"
+    "description": "Auto imported from components/Icons/Teacher.vue"
+  },
+  "MenuLang": {
+    "description": "Auto imported from components/menu/Lang.vue"
   },
   "LogoFooter": {
     "description": "Auto imported from components/logo/Footer.vue"
@@ -20,22 +26,16 @@
   "LogoMainWhite": {
     "description": "Auto imported from components/logo/MainWhite.vue"
   },
-  "MenuLang": {
-    "description": "Auto imported from components/menu/Lang.vue"
-  },
-  "FooterHome": {
-    "description": "Auto imported from components/footer/Home.vue"
-  },
   "IconsSocialLinkedin": {
-    "description": "Auto imported from components/icons/social/linkedin.vue"
+    "description": "Auto imported from components/Icons/social/linkedin.vue"
   },
   "IconsSocialMedium": {
-    "description": "Auto imported from components/icons/social/medium.vue"
+    "description": "Auto imported from components/Icons/social/medium.vue"
   },
   "IconsSocialTelegram": {
-    "description": "Auto imported from components/icons/social/telegram.vue"
+    "description": "Auto imported from components/Icons/social/telegram.vue"
   },
   "IconsSocialTwitter": {
-    "description": "Auto imported from components/icons/social/twitter.vue"
+    "description": "Auto imported from components/Icons/social/twitter.vue"
   }
 }

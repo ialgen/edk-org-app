@@ -9,11 +9,12 @@
                 <NuxtLink to="#roadmap">{{ $t('headerHome.anchor2')}}</NuxtLink>
                 <NuxtLink to="#tokenomics">EduToken</NuxtLink>
                 <MenuLang/>
-                <a href="https://www.edukarta.com/" class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu">
+                <a href="https://www.edukarta.com/" target="_blank" class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu">
                     EduKarta
                 </a>
             </div>
-            <div class="-mr-2 flex items-center sm:hidden">
+            <div class="-mr-2 flex items-center space-x-2 sm:hidden">
+                <MenuLang/>
                 <!-- Mobile menu button -->
                 <button @click="open_menu" class="">
                 <!-- Icon when menu is close. -->
@@ -32,7 +33,7 @@
             <NuxtLink to="#edukarta">{{ $t('headerHome.anchor1')}}</NuxtLink>
             <NuxtLink to="#roadmap">{{ $t('headerHome.anchor2')}}</NuxtLink>
             <NuxtLink to="#tokenomics">EduToken</NuxtLink>
-            <a href="https://www.edukarta.com/" class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu">
+            <a href="https://www.edukarta.com/" target="_blank" class="bg-palette-ciel text-white px-5 py-2 rounded-lg hover:bg-palette-bleu">
                 EduKarta
             </a>
         </div>

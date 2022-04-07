@@ -14,7 +14,7 @@
                 <p class="text-xl lg:text-xl xl:text-base">
                     {{ $t('headerSectionHome.text')}}
                 </p>
-                <a href="https://whitepaper.edutoken.org" class="text-3xl lg:text-base z-50">
+                <a href="https://whitepaper.edutoken.org" target="_blank" class="text-3xl lg:text-base z-50">
                     <div class="text-lg lg:ext-base text-center cursor-pointer py-3 lg:py-3 border-2 border-palette-violet text-palette-violet rounded-2xl hover:bg-palette-violet hover:text-white">
                         Whitepaper
                     </div>
@@ -85,7 +85,7 @@
                 <p class="text-sm lg:text-base text-center lg:text-left">
                     {{ $t('what.text') }}
                 </p>
-                <a href="https://edu-karta.gitbook.io/edukarta/">
+                <a href="https://www.edukarta.com" target="_blank">
                     <div class="py-2 lg:py-3 bg-palette-violet rounded-lg text-white w-40 text-center lg:w-40 text-lg lg:text-xl">
                         EduKarta
                     </div>
@@ -97,6 +97,14 @@
                         <h3 class="text-base lg:text-xl font-semibold">{{ $t('what.map.title') }}</h3>
                         <p class="text-sm lg:text-base text-justify">
                             {{ $t('what.map.text') }}
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl p-10 drop-shadow-3xl items-center w-72 h-60 lg:w-72 lg:h-72">
+                    <div class="flex flex-col space-y-4 lg:space-y-2">
+                        <h3 class="text-base lg:text-xl font-semibold">{{ $t('what.profile.title') }}</h3>
+                        <p class="text-sm lg:text-base text-justify">
+                            {{ $t('what.profile.text') }}
                         </p>
                     </div>
                 </div>
@@ -215,8 +223,8 @@
                     </div>
                     <ul role="list" class="mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-5 sm:gap-16 sm:space-y-0 lg:max-w-5xl">
                         <li v-for="person in people" :key="person.name">
-                            <a v-if="person.name=='more'" href="https://forms.gle/YTXQtxFnbpRniWKS7">
-                                <div class="cursor-pointer p-2 space-y-6 rounded-lg shadow-md hover:shadow-inner border-blue-edk" onclick="window.location.href='#';">
+                            <a v-if="person.name=='more'" href="https://forms.gle/YTXQtxFnbpRniWKS7" target="_blank">
+                                <div class="cursor-pointer p-2 space-y-6 rounded-lg shadow-md hover:shadow-inner border-blue-edk">
                                     <img class="mx-auto h-40 w-40 rounded-full xl:w-48 xl:h-48" src="~/assets/education-token.jpg"/>
                                     <p class="text-blue-edk font-bold">
                                         {{ $t('team.career') }}
@@ -231,7 +239,7 @@
                                         <p class="text-palette-violet">{{ person.role }}</p>
                                     </div>
                                     <div class="flex justify-center space-x-5">
-                                        <a v-if="person.linkedin" :href="person.linkedinUrl" class="text-blue-600 hover:text-blue-800">
+                                        <a v-if="person.linkedin" :href="person.linkedinUrl" target="_blank" class="text-blue-600 hover:text-blue-800">
                                             <span class="sr-only">LinkedIn</span>
                                             <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
                                                 <path fill-rule="evenodd" d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z" clip-rule="evenodd" />

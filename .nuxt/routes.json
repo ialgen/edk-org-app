@@ -3,56 +3,48 @@
     "name": "copiepourtrad___fr",
     "path": "/copiepourtrad",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/copiepourtrad.vue",
-    "chunkName": "pages/copiepourtrad",
-    "_name": "_e1f5f100"
+    "chunkName": "pages/copiepourtrad"
   },
   {
     "name": "index___en",
     "path": "/en",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5087ad35"
+    "chunkName": "pages/index"
   },
   {
     "name": "roadmaptest___fr",
     "path": "/roadmaptest",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/roadmaptest.vue",
-    "chunkName": "pages/roadmaptest",
-    "_name": "_7e5ebaf1"
+    "chunkName": "pages/roadmaptest"
   },
   {
     "name": "team___fr",
     "path": "/team",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/team.vue",
-    "chunkName": "pages/team",
-    "_name": "_5ba4236c"
+    "chunkName": "pages/team"
   },
   {
     "name": "copiepourtrad___en",
     "path": "/en/copiepourtrad",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/copiepourtrad.vue",
-    "chunkName": "pages/copiepourtrad",
-    "_name": "_e1f5f100"
+    "chunkName": "pages/copiepourtrad"
   },
   {
     "name": "roadmaptest___en",
     "path": "/en/roadmaptest",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/roadmaptest.vue",
-    "chunkName": "pages/roadmaptest",
-    "_name": "_7e5ebaf1"
+    "chunkName": "pages/roadmaptest"
   },
   {
     "name": "team___en",
     "path": "/en/team",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/team.vue",
-    "chunkName": "pages/team",
-    "_name": "_5ba4236c"
+    "chunkName": "pages/team"
   },
   {
     "name": "index___fr",
     "path": "/",
     "component": "/Users/ialgen/Desktop/Prog/EDK/edk-org-app/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5087ad35"
+    "chunkName": "pages/index"
   }
 ]
