@@ -3,14 +3,14 @@
         <div class="flex flex-row justify-evenly">
             <div class="flex flex-col space-y-2">
                 <div class="uppercase font-semibold text-sm">Token sale</div>
-                <a class="text-xs" href="https://whitepaper.edutoken.org">Whitepaper</a>
+                <a class="text-xs" href="https://whitepaper.edutoken.org" target="_blank">Whitepaper</a>
                 <a class="text-xs" href="/#">Tutorials</a>
                 <a class="text-xs" href="/#">Smartcontract(s)</a>
             </div>
             <div class="flex flex-col space-y-2">
                 <div class="uppercase font-semibold text-sm">Company</div>
                 <a class="text-xs" href="/#">About DE</a>
-                <a class="text-xs" href="https://forms.gle/YTXQtxFnbpRniWKS7">Careers</a>
+                <a class="text-xs" href="https://forms.gle/YTXQtxFnbpRniWKS7" target="_blank">Careers</a>
                 <a class="text-xs" href="/#">Contact</a>
             </div>
             <div class="flex flex-col space-y-2">
@@ -37,10 +37,10 @@
             <LogoFooter/>
             <div class="flex flex-row space-x-4">
                 <!--<IconsSocialMedium/>-->
-                <a href="https://twitter.com/EduKarta">
+                <a href="https://twitter.com/EduKarta" target="_blank">
                     <IconsSocialTwitter/>
                 </a>
-                <a href="https://www.linkedin.com/company/edukarta">
+                <a href="https://www.linkedin.com/company/edukarta" target="_blank">
                     <IconsSocialLinkedin/>
                 </a>
                 <!--<IconsSocialTelegram/>-->

@@ -9,7 +9,7 @@ export default {
     },
     who: {
         title: "Who is EduKarta for?",
-        text: "EduKarta is an ecosystem of services and programmes dedicated to education for children, students, parents, teachers, grandparents, educational institutions, and businesses around the world.",
+        text: "EduKarta is an ecosystem of services and programs dedicated to Education. It is indispensable for students (and their families), teachers (at all levels), educational institutions (secondary and higher education) & companies around the world.",
         teacher: {
             title: "Teachers",
             text: "EduKarta finally gives teachers the position they deserve in the educational ecosystem. After all, they are the ones who write up and plan the lessons and allow the students to discover, enjoy, learn and grow to become well rounded professionals.",
@@ -28,7 +28,11 @@ export default {
         text: "EduKarta is a educational platform that brings together knowledge and its architects into one secure and evolving digital system.",
         map: {
             title: "The map",
-            text: "The map is the central element that makes it possible to quickly and efficiently visualize the lessons adapted to the student.",
+            text: "The map is the central tool that makes it possible to search, find and visualize in 2 clicks the training courses and institutions that interest students and teachers.",
+        },
+        profile: {
+            title: "Institution Profile",
+            text: "EduKarta has identified more than 20 million educational institutions. Each institution has a profile listed on the platform.",
         },
         edk: {
             title: "EduToken",

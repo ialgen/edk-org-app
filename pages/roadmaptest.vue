@@ -6,13 +6,13 @@
             </h2>
             <div class="flex flex-row justify-between items-center">
                 <div class="flex flex-col space-y-6 m-10">
-                    <div @click="a20" class="flex flex-row space-x-2 justify-between items-center">
+                    <div @click="a21" class="flex flex-row space-x-2 justify-between items-center">
                         <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-b from-palette-cyan to-palette-ciel opacity-80 text-white flex justify-center items-center drop-shadow-xl">
                             1
                         </div>
                         <div class="grow text-center text-3xl lg:text-xl font-bold">2021</div>
                         <div>
-                            <svg v-if="show_20" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                            <svg v-if="show_21" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                             
@@ -21,7 +21,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div v-if="show_20" class="grid grid-cols-2 gap-10 ml-14">
+                    <div v-if="show_21" class="grid grid-cols-2 gap-10 ml-14">
                         <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
                             <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
                             <p class="text-2xl lg:text-base">
@@ -47,13 +47,13 @@
                             </p>
                         </div>
                     </div>
-                    <div @click="a21" class="flex flex-row space-x-2 justify-between items-center">
+                    <div @click="a22" class="flex flex-row space-x-2 justify-between items-center">
                         <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-l from-palette-ciel to-palette-cyan opacity-80 text-white flex justify-center items-center drop-shadow-xl">
                             2
                         </div>
                         <div class="grow text-center text-3xl lg:text-xl font-bold">2022</div>
                         <div>
-                            <svg v-if="show_21" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                            <svg v-if="show_22" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                             <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
@@ -61,7 +61,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div v-if="show_21" class="grid grid-cols-2 gap-10 ml-14">
+                    <div v-if="show_22" class="grid grid-cols-2 gap-10 ml-14">
                         <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
                             <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
                             <p class="text-2xl lg:text-base">
@@ -87,13 +87,13 @@
                             </p>
                         </div>
                     </div>
-                    <div @click="a22" class="flex flex-row space-x-2 justify-between items-center">
+                    <div @click="a23" class="flex flex-row space-x-2 justify-between items-center">
                         <div class="w-14 h-14 text-3xl lg:w-10 lg:h-10 lg:text-2xl rounded-full bg-gradient-to-l from-palette-cyan to-palette-ciel opacity-80 text-white flex justify-center items-center drop-shadow-xl">
                             3
                         </div>
                         <div class="grow text-center text-3xl lg:text-xl font-bold">2023</div>
                         <div>
-                            <svg v-if="show_22" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
+                            <svg v-if="show_23" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
                             </svg>
                             <svg v-else class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="#8083F3">
@@ -101,7 +101,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div v-if="show_22" class="grid grid-cols-2 gap-10 ml-14">
+                    <div v-if="show_23" class="grid grid-cols-2 gap-10 ml-14">
                         <div class="flex flex-col p-6 lg:p-4 space-y-2 bg-white rounded-2xl drop-shadow-3xl">
                             <h3 class="text-2xl lg:text-lg font-semibold">Q1</h3>
                             <p class="text-2xl lg:text-base">
@@ -141,26 +141,26 @@
 export default {
     data() {
         return {
-            show_20: true,
-            show_21: false,
+            show_21: true,
             show_22: false,
+            show_23: false,
         }
     },
     methods: {
-        a20() {
-            if (!this.show_20) {this.show_20 = !this.show_20} 
-            this.show_21 = false
-            this.show_22 = false
-        },
         a21() {
-            this.show_20 = false
-            if (!this.show_21) {this.show_21 = !this.show_21}
+            if (!this.show_21) {this.show_21 = !this.show_21} 
             this.show_22 = false
+            this.show_23 = false
         },
         a22() {
-            this.show_20 = false
             this.show_21 = false
             if (!this.show_22) {this.show_22 = !this.show_22}
+            this.show_23 = false
+        },
+        a23() {
+            this.show_21 = false
+            this.show_22 = false
+            if (!this.show_23) {this.show_23 = !this.show_23}
         },
     }
 }
